@@ -5,4 +5,19 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="shape_white">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="translucent">#00000000</color>
+
+
+    <!--layout_view_1-->
+    <color name="camera">#ff5534</color>
+    <color name="camera_focused">#B2ff5534</color>
+
+    <color name="editor">#e64c2e</color>
+    <color name="editor_focused">#B2e64c2e</color>
+
+    <color name="list">#cc4429</color>
+    <color name="list_focused">#B2cc4429</color>
+
+
 </resources>

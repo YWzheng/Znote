@@ -1,0 +1,84 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/top_background">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/top_logo"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lsq_entry_camera"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/selector_bg_camera">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#00000000"
+            android:clickable="false"
+            android:drawableLeft="@drawable/icon_camera"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:text="特效相机"
+            android:textColor="#FFF"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lsq_entry_editor"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/selector_bg_editor">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#00000000"
+            android:clickable="false"
+            android:drawableLeft="@drawable/icon_editor"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:text="照片美化"
+            android:textColor="#FFF"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lsq_entry_list"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/selector_bg_list">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#00000000"
+            android:clickable="false"
+            android:drawableLeft="@drawable/icon_component_list"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:text="开发套件"
+            android:textColor="#FFF"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
