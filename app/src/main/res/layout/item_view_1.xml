@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#f1f3f7">
+
+
+    <ImageView
+        android:id="@+id/iconIM"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="app icon"
+        android:paddingBottom="13dp"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp"
+        android:paddingTop="8dp"
+        tools:src="@drawable/ic_avatar1"/>
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+        android:layout_toLeftOf="@+id/timeTV"
+        android:layout_toRightOf="@+id/iconIM"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        tools:text="现代计算机科学的鼻祖"/>
+
+    <TextView
+        android:id="@+id/timeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/titleTV"
+        android:layout_marginRight="6dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        tools:text="19:00"/>
+
+
+    <TextView
+        android:id="@+id/messageTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iconIM"
+        android:layout_below="@+id/titleTV"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/iconIM"
+        android:maxLines="2"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="14dp"
+        tools:text="我尝试尽我所能的去熟悉电脑科学里的一些领域,然后把这些知识摘要成大家比较容易了解的方式，让没有那么多时间做这种学习的人也能够吸收它们。"/>
+
+</RelativeLayout>
