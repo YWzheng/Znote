@@ -8,7 +8,7 @@
 
 
     <ImageView
-        android:id="@+id/iconIM"
+        android:id="@+id/icon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:contentDescription="app icon"
@@ -19,13 +19,13 @@
         tools:src="@drawable/ic_avatar1"/>
 
     <TextView
-        android:id="@+id/titleTV"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="10dp"
         android:layout_marginTop="6dp"
         android:layout_toLeftOf="@+id/timeTV"
-        android:layout_toRightOf="@+id/iconIM"
+        android:layout_toRightOf="@+id/icon"
         android:textColor="@android:color/black"
         android:textSize="16dp"
         tools:text="现代计算机科学的鼻祖"/>
@@ -35,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/titleTV"
+        android:layout_alignTop="@+id/title"
         android:layout_marginRight="6dp"
         android:textColor="@android:color/darker_gray"
         android:textSize="12sp"
@@ -46,10 +46,10 @@
         android:id="@+id/messageTV"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/iconIM"
-        android:layout_below="@+id/titleTV"
+        android:layout_alignBottom="@+id/icon"
+        android:layout_below="@+id/title"
         android:layout_marginRight="10dp"
-        android:layout_toRightOf="@+id/iconIM"
+        android:layout_toRightOf="@+id/icon"
         android:maxLines="2"
         android:textColor="@android:color/holo_green_light"
         android:textSize="14dp"

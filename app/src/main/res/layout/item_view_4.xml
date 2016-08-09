@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@android:drawable/list_selector_background"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:singleLine="true"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="现在的Bug管理工具太重，这个简洁的工具可以帮你减负"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:baselineAligned="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/w"
+            android:visibility="visible"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp">
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/date"
+                android:layout_alignParentTop="true"
+                android:ellipsize="end"
+                android:gravity="top"
+                android:maxLines="3"
+                android:textColor="#999999"
+                android:textSize="13sp"
+                tools:text="网易云捕积累了多年的质量跟踪技术经验，拥有强大的品牌保障,帮助开发者快速解决线上质量问题，告别漫长无助的原因查找过程"/>
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:singleLine="true"
+                android:textSize="12sp"
+                tools:text="2016-8-9 21:57:15"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
