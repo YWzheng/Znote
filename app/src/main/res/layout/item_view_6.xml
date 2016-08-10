@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/ivNews"
+            android:layout_width="86dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/news"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="#212121"
+                android:textSize="16sp"
+                tools:text="里约奥运会载记者公交车遭枪击 两人受轻伤"/>
+
+            <TextView
+                android:id="@+id/tvDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="#727272"
+                android:textSize="12sp"
+                tools:text="中新网8月10日电据外媒报道，当地时间9日，一辆运载记者的公交车在奥运场地间赶场时，在高速公路上遭到枪击，所幸仅有两人轻伤。车上乘客表示，这辆大巴当时正从篮球场"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
