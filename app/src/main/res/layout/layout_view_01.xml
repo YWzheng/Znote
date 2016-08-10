@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_apply_content"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/live_apply">
+
+        <ImageView
+            android:id="@+id/shader"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/video_bottom_height448"/>
+
+        <ImageView
+            android:id="@+id/iv_apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@+id/shader"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/apply"/>
+    </RelativeLayout>
+
+</RelativeLayout>

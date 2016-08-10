@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_video_pic"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#dde0e0e0">
+
+    <ImageView
+        android:id="@+id/iv_video_pic"
+        android:layout_width="match_parent"
+        android:layout_height="335dp"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/iv_video_play"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/play4"
+        android:visibility="visible"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/iv_video_pic"
+        android:background="@drawable/video_bottom_height448"/>
+
+
+    <ImageView
+        android:id="@+id/iv_video_live_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="228dp"
+        android:src="@drawable/ready"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/tv_video_titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="The Condenters"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/tv_video_descs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_video_titles"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="The best part of a campagin event is the crowed.Be Condidates make it!"
+        android:textColor="#B4B4B4"
+        android:textSize="16dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_people_time_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_video_descs"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/tv_video_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="10dip"
+            android:gravity="center"
+            android:text="8:50"
+            android:textColor="#505153"
+            android:textSize="10dp"/>
+
+
+        <View
+            android:id="@+id/view_right_tv_video_time"
+            android:layout_width="1dip"
+            android:layout_height="10dip"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv_video_time"
+            android:background="#505153"/>
+
+        <TextView
+            android:id="@+id/tv_people"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/view_right_tv_video_time"
+            android:gravity="center"
+            android:text="999人在看"
+            android:textColor="#505153"
+            android:textSize="10dp"/>
+
+        <ImageView
+            android:id="@+id/iv_state_live"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_people"
+            android:src="@drawable/live_state_ready1"/>
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@+id/iv_video_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#262626"/>
+
+</RelativeLayout>
