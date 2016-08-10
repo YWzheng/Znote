@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary">
+
+            <ImageView
+                android:id="@+id/img_nav_top_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/layout_info"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/main_nav_header_bg"/>
+
+            <View
+                android:id="@+id/nav_adapt_status_bar"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <LinearLayout
+                android:id="@+id/layout_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nav_adapt_status_bar"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/img_avatar"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/image_placeholder"/>
+
+                <TextView
+                    android:id="@+id/tv_login_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    tools:text="TakWolf"/>
+
+                <TextView
+                    android:id="@+id/tv_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#b3ffffff"
+                    android:textSize="14sp"
+                    tools:text="积分：0"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btn_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/layout_info"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="16dp"
+                android:background="@drawable/selector_button_transparent_image"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="注销"
+                android:textColor="#b3ffffff"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/btn_theme_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/layout_info"
+                android:layout_margin="16dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/selector_button_transparent_image"
+                android:padding="16dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_brightness_3_white_24dp"/>
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"/>
+
+        <CheckedTextView
+            android:id="@+id/btn_nav_all"
+            style="@style/AppWidget.NavigationItem"
+            android:checked="true"
+            android:drawableStart="@drawable/selector_main_nav_ic_all"
+            android:text="全部"/>
+
+        <CheckedTextView
+            android:id="@+id/btn_nav_good"
+            style="@style/AppWidget.NavigationItem"
+            android:drawableStart="@drawable/selector_main_nav_ic_good"
+            android:text="精华"/>
+
+        <CheckedTextView
+            android:id="@+id/btn_nav_share"
+            style="@style/AppWidget.NavigationItem"
+            android:drawableStart="@drawable/selector_main_nav_ic_share"
+            android:text="分享"/>
+
+        <CheckedTextView
+            android:id="@+id/btn_nav_ask"
+            style="@style/AppWidget.NavigationItem"
+            android:drawableStart="@drawable/selector_main_nav_ic_ask"
+            android:text="问答"/>
+
+        <CheckedTextView
+            android:id="@+id/btn_nav_job"
+            style="@style/AppWidget.NavigationItem"
+            android:drawableStart="@drawable/selector_main_nav_ic_job"
+            android:text="招聘"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#e0e0e0"/>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/btn_nav_notification"
+                style="@style/AppWidget.NavigationItem"
+                android:drawableStart="@drawable/ic_notifications_grey600_24dp"
+                android:text="消息"/>
+
+
+            <TextView
+                android:id="@+id/badge_nav_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_vertical"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="99+"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/btn_nav_setting"
+            style="@style/AppWidget.NavigationItem"
+            android:drawableStart="@drawable/ic_settings_grey600_24dp"
+            android:text="设置"/>
+
+        <TextView
+            android:id="@+id/btn_nav_about"
+            style="@style/AppWidget.NavigationItem"
+            android:drawableStart="@drawable/ic_info_grey600_24dp"
+            android:text="关于"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

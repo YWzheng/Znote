@@ -15,7 +15,7 @@
         android:gravity="center_vertical"
         android:padding="8dp"
         android:text="返回"
-        android:textColor="@drawable/text_selector"
+        android:textColor="@drawable/selector_text"
         android:textSize="16sp"
         android:visibility="visible"/>
 
@@ -25,7 +25,7 @@
         android:layout_height="30dp"
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@+id/tv_title"
-        android:indeterminateDrawable="@drawable/loading"/>
+        android:indeterminateDrawable="@drawable/drawable_loading"/>
 
     <TextView
         android:id="@+id/tv_title"
@@ -48,7 +48,7 @@
         android:gravity="center"
         android:padding="8dp"
         android:text="更多"
-        android:textColor="@drawable/text_selector"
+        android:textColor="@drawable/selector_text"
         android:textSize="16sp"
         android:visibility="visible"/>
 

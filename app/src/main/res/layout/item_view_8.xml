@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_setting_item"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_movie_icon"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        tools:src="@drawable/game_of_throne"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_movie_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="权利的游戏"/>
+
+        <TextView
+            android:id="@+id/tv_movie_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            tools:text="上映日期"/>
+
+        <TextView
+            android:id="@+id/tv_movie_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            tools:text="评分：5.2 分"/>
+
+    </LinearLayout>
+</LinearLayout>

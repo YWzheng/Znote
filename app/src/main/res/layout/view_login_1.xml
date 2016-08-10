@@ -37,7 +37,7 @@
         android:layout_marginLeft="15.0dip"
         android:layout_marginRight="15.0dip"
         android:layout_marginTop="20.0dip"
-        android:background="@drawable/logineditetext_bg"
+        android:background="@drawable/shape_login_edit_bg"
         android:orientation="vertical">
 
         <RelativeLayout
@@ -92,7 +92,7 @@
             android:layout_height="46.0dip"
             android:layout_marginLeft="20.0dip"
             android:layout_marginRight="20.0dip"
-            android:background="@drawable/logineditetext_bg">
+            android:background="@drawable/shape_login_edit_bg">
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -135,7 +135,7 @@
             android:layout_weight="1.0"
             android:background="@drawable/selector_reg_btn_bg"
             android:text="注册"
-            android:textColor="@color/shape_white"
+            android:textColor="@color/white"
             android:textSize="18.0sp"
             android:textStyle="bold"
             android:visibility="gone"/>
@@ -145,9 +145,9 @@
             android:layout_width="wrap_content"
             android:layout_height="50.0dip"
             android:layout_weight="1.0"
-            android:background="@drawable/loginbtnbg"
+            android:background="@drawable/selector_login_bg"
             android:text="登　　录"
-            android:textColor="@color/shape_white"
+            android:textColor="@color/white"
             android:textSize="20sp"/>
     </LinearLayout>
 
@@ -164,7 +164,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="5.0dip"
             android:text="注册"
-            android:textColor="@color/shape_white"
+            android:textColor="@color/white"
             android:textSize="14.0sp"/>
 
         <TextView
@@ -174,7 +174,7 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:text="忘记密码 ?"
-            android:textColor="@color/shape_white"
+            android:textColor="@color/white"
             android:textSize="14.0sp"/>
     </RelativeLayout>
 </LinearLayout>

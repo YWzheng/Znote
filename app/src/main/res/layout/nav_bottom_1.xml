@@ -16,31 +16,31 @@
         <RadioButton
             android:id="@+id/rb_brand"
             style="@style/nav_bottom"
-            android:drawableTop="@drawable/bar_brand_bg"
+            android:drawableTop="@drawable/selector_bar_brand_bg"
             android:text="商品"/>
 
         <RadioButton
             android:id="@+id/rb_search"
             style="@style/nav_bottom"
-            android:drawableTop="@drawable/bar_search_bg"
+            android:drawableTop="@drawable/selector_bar_search_bg"
             android:text="搜索"/>
 
         <RadioButton
             android:id="@+id/rb_home"
             style="@style/nav_bottom"
-            android:drawableTop="@drawable/bar_home_bg"
+            android:drawableTop="@drawable/selector_bar_home_bg"
             android:text="主页"/>
 
         <RadioButton
             android:id="@+id/rb_shopping"
             style="@style/nav_bottom"
-            android:drawableTop="@drawable/bar_shopping_bg"
+            android:drawableTop="@drawable/selector_bar_shopping_bg"
             android:text="购物车"/>
 
         <RadioButton
             android:id="@+id/rb_more"
             style="@style/nav_bottom"
-            android:drawableTop="@drawable/bar_more_bg"
+            android:drawableTop="@drawable/selector_bar_more_bg"
             android:text="更多"/>
     </RadioGroup>
 

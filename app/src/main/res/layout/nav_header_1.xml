@@ -21,7 +21,7 @@
         android:layout_centerInParent="true"
         android:padding="10dp"
         android:text="萌妹,每日妹子福利"
-        android:textColor="@color/shape_white"
+        android:textColor="@color/white"
         android:textSize="16sp"/>
 
 
