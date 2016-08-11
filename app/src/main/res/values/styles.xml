@@ -10,7 +10,6 @@
         <!--NoActionBar-->
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">false</item>
-
         <!--TranslucentStatus-->
         <!--<item name="android:windowTranslucentStatus">true</item>
         <item name="android:windowTranslucentNavigation">true</item>-->
