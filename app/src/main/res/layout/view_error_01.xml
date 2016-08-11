@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--
+    <merge />  标签来减少视图层级结构
+     注意：
+     1.只可以作为xml layout的根节点。
+     2.当需要扩充的xml layout本身是由merge作为根节点的话，需要将被导入的xml layout置于 viewGroup中，
+       同时需要设置attachToRoot为True
+    -->
+
+    <TextView
+        android:id="@+id/tv_load_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawablePadding="10dp"
+        android:drawableTop="@drawable/ic_error"
+        android:scaleType="centerInside"
+        android:text="加载失败，请重试"
+        />
+</merge>
