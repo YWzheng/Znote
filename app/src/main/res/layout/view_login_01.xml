@@ -23,7 +23,7 @@
             android:layout_height="60dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:background="@drawable/register_father_layout_shape"
+            android:background="@drawable/shape_register_father_layout"
             android:orientation="horizontal">
 
             <ImageView
@@ -62,7 +62,7 @@
             android:layout_height="60dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:background="@drawable/register_father_layout_shape"
+            android:background="@drawable/shape_register_father_layout"
             android:orientation="horizontal">
 
             <ImageView
@@ -102,7 +102,7 @@
             android:layout_width="340dp"
             android:layout_height="match_parent"
             android:layout_centerVertical="true"
-            android:background="@drawable/get_sms_code_shape"
+            android:background="@drawable/shape_get_sms_code_shape"
             android:gravity="center"
             android:text="登录"
             android:textColor="#64BFD0"

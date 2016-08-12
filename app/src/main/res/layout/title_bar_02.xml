@@ -25,7 +25,7 @@
         android:layout_height="30dp"
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@+id/tv_title"
-        android:indeterminateDrawable="@drawable/drawable_loading"/>
+        android:indeterminateDrawable="@drawable/layer_list_drawable_loading"/>
 
     <TextView
         android:id="@+id/tv_title"

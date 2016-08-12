@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_toRightOf="@id/iv_picture"
-            android:background="@drawable/bg_release_item"
+            android:background="@drawable/shape_bg_release_item"
             android:padding="4dp"
             android:text="1:00——2:00"
             android:textColor="#21DCA5"
