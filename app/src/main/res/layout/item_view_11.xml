@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/iv_picture"
+            android:layout_width="78dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pic_default_image"/>
+
+        <TextView
+            android:id="@+id/tv_public_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/iv_picture"
+            android:background="@drawable/bg_release_item"
+            android:padding="4dp"
+            android:text="1:00——2:00"
+            android:textColor="#21DCA5"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tv_price_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="元/小时"
+            android:textColor="#f66f4d"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/tv_price_unit"
+            android:text="2.00"
+            android:textColor="#f66f4d"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tv_park_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_public_time"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/iv_picture"
+            android:text="中国银行总行大厦停车场"
+            android:textColor="#333333"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_park_name"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/iv_picture"
+            android:text="辽宁沈阳大东区滂江街22号"
+            android:textColor="#999999"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tv_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tv_address"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@id/tv_address"
+            android:gravity="right"
+            android:text="500km"
+            android:textColor="#999999"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:id="@+id/iv_standard_smart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_standard_smart"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#cccccc"/>
+</LinearLayout>

@@ -6,3 +6,4 @@
     android:scaleType="centerCrop"
     android:src="@drawable/ic_splash_pic"/>
 
+    <!-- 单纯的放张图片-->

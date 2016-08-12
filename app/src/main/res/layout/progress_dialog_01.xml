@@ -49,4 +49,17 @@
         android:layout_below="@+id/progress_dialog_1"
         android:layout_gravity="center"
         android:layout_marginTop="33dp"/>
+
+    <!--自定义的ProgressBar-->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/mProgress_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pb_loading_4"
+        android:layout_below="@+id/pb_loading_4"
+        android:layout_gravity="center"
+        android:layout_marginTop="37dp"/>
+
+
 </RelativeLayout>

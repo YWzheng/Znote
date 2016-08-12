@@ -18,7 +18,7 @@
     <!--************************************************************************************************************************-->
 
 
-    <!--nav_bottom_1-->
+    <!--tab_bottom_01-->
     <style name="nav_bottom">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">#6A6A6A</item>
@@ -28,6 +28,38 @@
         <item name="android:button">@null</item>
         <item name="android:gravity">center_horizontal</item>
     </style>
+
+    <!--tab_bottom_02-->
+    <style name="radioButton" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/selector_bottom_text</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!--自定义的progressbar-->
+    <style name="mProgress_circle" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/refresh_progress</item>
+        <item name="android:minWidth">50dp</item>
+        <item name="android:minHeight">50dp</item>
+        <item name="android:maxWidth">60dp</item>
+        <item name="android:maxHeight">60dp</item>
+    </style>
+
+    <!--widget.CustomToast-->
+    <style name="CustomToast_textAppearance">
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+        <item name="android:textColorHighlight">#FFFF9200</item>
+        <item name="android:textColorHint">#808080</item>
+        <item name="android:textColorLink">#5C5CFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
 
     <!-- Navigation -->
     <style name="NavigationItem" parent="Theme.AppCompat.Light">

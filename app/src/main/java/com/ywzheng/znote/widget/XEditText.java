@@ -25,8 +25,7 @@ import com.ywzheng.znote.R;
 
 /**
  * XEditText
- * Created by woxingxiao on 2015/9/4.
- * Github: https://github.com/woxingxiao/XEditText
+ * From:Github: https://github.com/woxingxiao/XEditText
  */
 public class XEditText extends AppCompatEditText {
 
