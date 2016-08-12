@@ -1,65 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<TableLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#303030"
-    android:padding="16dp">
+    android:background="#999999"
+    android:padding="16dp"
+    android:shrinkColumns="1,1,1">
+
+    <TableRow>
+
+        <android.support.v4.widget.ContentLoadingProgressBar
+            style="?android:attr/progressBarStyleSmallInverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
 
 
-    <ProgressBar
-        android:id="@+id/progress_dialog_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:indeterminateTint="@color/white"
-        android:paddingEnd="10dp"
-        />
-
-    <ProgressBar
-        android:id="@+id/progress_dialog_2"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:layout_alignTop="@+id/progress_dialog_1"
-        android:layout_gravity="center_vertical"
-        android:layout_marginStart="24dp"
-        android:layout_toEndOf="@+id/progress_dialog_1"
-        android:indeterminateTint="#408080"
-        android:paddingEnd="10dp"/>
+        <ProgressBar
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:indeterminateTint="#408080"/>
 
 
-    <!--?android:attr/progressBarStyleSmallInverse-->
-    <!--progressBarStyleLarge-->
-    <android.support.v4.widget.ContentLoadingProgressBar
-        android:id="@+id/pb_loading_3"
-        style="?android:attr/progressBarStyleSmallInverse"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center"/>
+    </TableRow>
 
-    <!--progressBarStyleLarge-->
-    <android.support.v4.widget.ContentLoadingProgressBar
-        android:id="@+id/pb_loading_4"
-        style="?android:attr/progressBarStyleLarge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/progress_dialog_1"
-        android:layout_below="@+id/progress_dialog_1"
-        android:layout_gravity="center"
-        android:layout_marginTop="33dp"/>
+    <TableRow>
 
-    <!--自定义的ProgressBar-->
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="@style/mProgress_circle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/pb_loading_4"
-        android:layout_below="@+id/pb_loading_4"
-        android:layout_gravity="center"
-        android:layout_marginTop="37dp"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:indeterminateTint="@color/white"/>
 
+        <!--自定义的ProgressBar-->
+        <ProgressBar
+            style="@style/mProgress_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </TableRow>
 
-</RelativeLayout>
+    <TableRow>
+        <!--progressBarStyleLarge-->
+        <android.support.v4.widget.ContentLoadingProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+</TableLayout>
