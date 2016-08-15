@@ -1,48 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView
-    android:id="@+id/search_card_view"
+<TableLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="45dp"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
-    android:layout_marginTop="10dp"
-    app:cardBackgroundColor="@color/white"
-    app:cardCornerRadius="1dp">
+    android:layout_height="match_parent">
+
+    <TableLayout>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="1dp">
 
 
-    <ImageView
-        android:id="@+id/search_scan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center|left"
-        android:layout_marginLeft="10dp"
-        android:src="@drawable/ic_hint_search"/>
+            <ImageView
+                android:id="@+id/search_scan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_hint_search"/>
 
 
-    <TextView
-        android:id="@+id/search_edit"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center|right"
-        android:layout_marginLeft="40dp"
-        android:background="@color/white"
-        android:gravity="center_vertical"
-        android:singleLine="true"
-        android:text="搜索视频 番剧 up主或av号"
-        android:textColor="#555555"
-        android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/search_edit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|right"
+                android:layout_marginLeft="40dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="搜索视频 番剧 up主或av号"
+                android:textColor="#555555"
+                android:textSize="14sp"/>
 
 
-    <ImageView
-        android:id="@+id/search_img"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center|right"
-        android:clickable="true"
-        android:padding="12dp"
-        android:src="@drawable/ic_scan"/>
+            <ImageView
+                android:id="@+id/search_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:clickable="true"
+                android:padding="12dp"
+                android:src="@drawable/ic_scan"/>
 
 
-</android.support.v7.widget.CardView>
+        </android.support.v7.widget.CardView>
+    </TableLayout>
+
+    <TableRow>
+
+    </TableRow>
+</TableLayout>

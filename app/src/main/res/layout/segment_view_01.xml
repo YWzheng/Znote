@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <!--1方案：RadioButton-->
+    <TableRow>
+
+        <RadioGroup
+            android:id="@+id/rg_am_pm_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_am"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_remind_time_am_selector"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="上午"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:id="@+id/rb_pm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_remind_time_pm_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="下午"
+                android:textColor="#d2767c"/>
+
+        </RadioGroup>
+    </TableRow>
+
+    <!--2方案：自定义SegmentControl-->
+    <TableRow>
+
+        <com.ywzheng.znote.widget.segment.SegmentControl
+            android:id="@+id/segment_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            app:cornerRadius="15dip"
+            app:direction="horizon"
+            app:horizonGap="8dip"
+            app:selectedBackgroundColors="#5777fc"
+            app:selectedIndex="1"
+            app:texts="未签到|全部|已签到"
+            app:verticalGap="8dip"/>
+
+        <com.ywzheng.znote.widget.segment.SegmentControl
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            app:cornerRadius="5dip"
+            app:direction="vertical"
+            app:horizonGap="8dip"
+            app:selectedBackgroundColors="#009688"
+            app:selectedIndex="1"
+            app:texts="未签到|全部|已签到"
+            app:verticalGap="8dip"/>
+    </TableRow>
+
+</TableLayout>
