@@ -3,56 +3,93 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#eeeeee">
 
-    <TableLayout>
-        <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="45dp"
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="1dp">
+
+
+        <ImageView
+            android:id="@+id/search_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
             android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="1dp">
+            android:src="@drawable/ic_search_black_24dp"/>
 
 
-            <ImageView
-                android:id="@+id/search_scan"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center|left"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/ic_hint_search"/>
+        <TextView
+            android:id="@+id/search_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|right"
+            android:layout_marginLeft="40dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="搜索视频 番剧 up主或av号"
+            android:textColor="#555555"
+            android:textSize="14sp"/>
 
 
-            <TextView
-                android:id="@+id/search_edit"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center|right"
-                android:layout_marginLeft="40dp"
-                android:background="@color/white"
-                android:gravity="center_vertical"
-                android:singleLine="true"
-                android:text="搜索视频 番剧 up主或av号"
-                android:textColor="#555555"
-                android:textSize="14sp"/>
+        <ImageView
+            android:id="@+id/search_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:clickable="true"
+            android:padding="12dp"
+            android:src="@drawable/ic_scan"/>
 
 
-            <ImageView
-                android:id="@+id/search_img"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center|right"
-                android:clickable="true"
-                android:padding="12dp"
-                android:src="@drawable/ic_scan"/>
+    </android.support.v7.widget.CardView>
 
+    <com.ywzheng.znote.widget.CustomEditText
+        android:id="@+id/search_input"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/search_input_bg"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/ic_cancel_black_24dp"
+        android:freezesText="true"
+        android:gravity="center_vertical"
+        android:hint="搜索"
+        android:imeOptions="actionSearch"
+        android:paddingBottom="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textColorHint="#ffb5b5b5"
+        android:textSize="14sp"/>
 
-        </android.support.v7.widget.CardView>
-    </TableLayout>
-
-    <TableRow>
-
-    </TableRow>
+    <com.ywzheng.znote.widget.XEditText
+        android:id="@+id/ios_style_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_circle_gray_bg"
+        android:drawableLeft="@drawable/icon_search"
+        android:drawablePadding="8dp"
+        android:hint="search"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textCursorDrawable="@color/colorPrimary"
+        app:x_iOSStyleEnable="true"/>
 </TableLayout>
