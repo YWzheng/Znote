@@ -73,14 +73,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginLeft="16dp"
-            android:backgroundTint="@android:color/holo_blue_light"
-            android:src="@android:drawable/ic_delete"/>
-
-        <android.support.design.widget.FloatingActionButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="16dp"
             android:src="@android:drawable/ic_input_add"/>
 
         <android.support.design.widget.FloatingActionButton
@@ -91,8 +83,7 @@
             android:src="@android:drawable/ic_input_get"/>
     </TableRow>
 
-    <TableRow
-        android:layout_marginTop="16dp">
+    <TableRow>
 
         <android.support.design.widget.FloatingActionButton
             android:layout_width="wrap_content"
@@ -123,16 +114,10 @@
             android:layout_marginLeft="16dp"
             android:src="@android:drawable/ic_lock_idle_low_battery"/>
 
-        <android.support.design.widget.FloatingActionButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="16dp"
-            android:src="@android:drawable/ic_popup_reminder"/>
+
     </TableRow>
 
-    <TableRow
-        android:layout_marginTop="16dp">
+    <TableRow>
 
         <android.support.design.widget.FloatingActionButton
             android:layout_width="wrap_content"
@@ -164,6 +149,17 @@
             android:src="@android:drawable/ic_popup_disk_full"
             app:backgroundTint="#fac8f0"/>
 
+
+    </TableRow>
+
+    <TableRow>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@android:drawable/ic_popup_reminder"/>
+
         <android.support.design.widget.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -172,4 +168,6 @@
             android:src="@android:drawable/ic_menu_today"
             app:backgroundTint="#faf800"/>
     </TableRow>
+
+
 </TableLayout>

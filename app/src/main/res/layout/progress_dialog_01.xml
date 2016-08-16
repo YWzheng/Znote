@@ -63,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:indeterminateDrawable="@drawable/animdraw2"
+            android:indeterminateDrawable="@drawable/rotate_animdraw2"
             android:indeterminateDuration="1500"/>
     </TableRow>
 </TableLayout>

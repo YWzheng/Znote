@@ -13,7 +13,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_view_05);
+        setContentView(R.layout.activity_main);
         if (savedInstanceState == null) {
         }
     }

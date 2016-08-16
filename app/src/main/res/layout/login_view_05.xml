@@ -120,7 +120,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="24dp"
-                android:background="@drawable/signin_button_bg"
+                android:background="@drawable/shape_signin_button_bg"
                 android:text="登录"
                 android:textColor="@color/white"
                 android:textStyle="bold"/>
