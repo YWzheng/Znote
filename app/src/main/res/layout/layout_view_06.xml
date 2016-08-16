@@ -27,7 +27,7 @@
 
         <!--图填充的线 跟下边对比-->
         <ImageView
-            android:layout_width="1px"
+            android:layout_width="2px"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:background="@drawable/common_list_divider"/>
@@ -47,7 +47,7 @@
 
         <!--颜色背景填充的线-->
         <ImageView
-            android:layout_width="1px"
+            android:layout_width="2px"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:background="#00ff00"/>
