@@ -38,7 +38,7 @@
                     android:layout_height="40dp"
                     android:layout_marginBottom="10dp"
                     android:background="#05000000"
-                    android:hint="username"
+                    android:hint="用户名"
                     android:imeOptions="actionNext"
                     android:maxLines="1"
                     android:paddingStart="10dp"
@@ -54,7 +54,7 @@
                     android:layout_height="40dp"
                     android:layout_marginBottom="10dp"
                     android:background="#05000000"
-                    android:hint="hint_password"
+                    android:hint="密码"
                     android:imeActionId="@+id/login"
                     android:imeActionLabel="action_sign_in"
                     android:imeOptions="actionDone"
@@ -82,7 +82,7 @@
                     android:layout_height="40dp"
                     android:layout_marginBottom="10dp"
                     android:background="#05000000"
-                    android:hint="hint_confirm_password"
+                    android:hint="确认密码"
                     android:imeActionId="@+id/login"
                     android:imeActionLabel="action_sign_in"
                     android:imeOptions="actionNext"
@@ -100,7 +100,7 @@
                     android:layout_height="40dp"
                     android:layout_marginBottom="10dp"
                     android:background="#05000000"
-                    android:hint="hint_email"
+                    android:hint="邮箱"
                     android:inputType="textEmailAddress"
                     android:maxLines="1"
                     android:paddingStart="10dp"
@@ -109,7 +109,6 @@
                     android:textColorHint="#b4b4b4"
                     android:textSize="15sp"/>
 
-                <!--</android.support.design.widget.TextInputLayout>-->
 
             </LinearLayout>
 
