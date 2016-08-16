@@ -7,6 +7,7 @@
     android:background="#eeeeee">
 
 
+    <!--1方案-->
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="45dp"
@@ -52,6 +53,7 @@
 
     </android.support.v7.widget.CardView>
 
+    <!--2方案-->
     <com.ywzheng.znote.widget.CustomEditText
         android:id="@+id/search_input"
         android:layout_width="match_parent"
@@ -79,6 +81,7 @@
         android:textColorHint="#ffb5b5b5"
         android:textSize="14sp"/>
 
+    <!--3方案-->
     <com.ywzheng.znote.widget.XEditText
         android:id="@+id/ios_style_edit_text"
         android:layout_width="match_parent"
