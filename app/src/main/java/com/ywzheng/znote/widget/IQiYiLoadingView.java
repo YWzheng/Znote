@@ -19,6 +19,7 @@ import android.view.animation.AccelerateDecelerateInterpolator;
 import com.ywzheng.znote.R;
 
 /**
+ * 爱奇艺加载 动画
  * From:https://github.com/as5846197/ViewStudy
  */
 public class IQiYiLoadingView extends View {

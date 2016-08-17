@@ -15,7 +15,6 @@ import android.widget.ImageView;
 
 /**
  * 圆形头像
- *
  * 2016-8-11 16:58:55
  */
 public class CircleImageView extends ImageView {
