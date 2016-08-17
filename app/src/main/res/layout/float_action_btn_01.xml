@@ -167,6 +167,16 @@
             android:layout_marginLeft="16dp"
             android:src="@android:drawable/ic_menu_today"
             app:backgroundTint="#faf800"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right|end"
+            android:src="@drawable/ic_done"
+            app:backgroundTint="#038314"
+            app:borderWidth="0dp"
+            app:fabSize="mini">
+        </android.support.design.widget.FloatingActionButton>
     </TableRow>
 
 
