@@ -66,4 +66,12 @@
             android:indeterminateDrawable="@drawable/rotate_animdraw2"
             android:indeterminateDuration="1500"/>
     </TableRow>
+
+    <TableRow>
+
+        <com.ywzheng.znote.widget.IQiYiLoadingView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
 </TableLayout>
