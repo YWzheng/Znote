@@ -118,7 +118,7 @@
                 android:paddingLeft="2dp"
                 android:singleLine="true"
                 android:text="每日一猜，制服诱惑，你猜猜"
-                android:textColor="@color/txt_title"
+                android:textColor="#545454"
                 android:textSize="16sp"/>
 
             <View

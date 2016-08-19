@@ -25,4 +25,6 @@
     <drawable name="btg_btn_color_pressed">#ffcccccc</drawable>
     <color name="btg_color_blue">#ff229FFC</color>
 
+    <!--listview_selector-->
+    <color name="listview_item_selector">#ff1d9cd6</color>
 </resources>

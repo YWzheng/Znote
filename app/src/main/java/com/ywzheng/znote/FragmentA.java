@@ -19,7 +19,7 @@ public class FragmentA extends Fragment {
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
 
-        return inflater.inflate(R.layout.progress_dialog_01, container, false);
+        return inflater.inflate(R.layout.view_setting_02, container, false);
     }
 
 
