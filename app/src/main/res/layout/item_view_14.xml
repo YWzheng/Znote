@@ -1,0 +1,130 @@
+<?xml version="1" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/home_img"
+                android:layout_width="fill_parent"
+                android:layout_height="175dp"
+                android:layout_marginTop="18dp"
+                android:background="#ffffff"
+                android:scaleType="fitXY"
+                android:src="@drawable/hot_game"/>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_alignBottom="@+id/home_img"
+                android:background="@drawable/list_gradient"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/home_great_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="10dp"
+                    android:text="28"
+                    android:textColor="#f6f6f6"
+                    android:textSize="14sp"/>
+
+                <ImageView
+                    android:id="@+id/home_great"
+                    android:layout_width="18dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="3dp"
+                    android:layout_toLeftOf="@+id/home_great_number"
+                    android:src="@drawable/liked_gray2x"/>
+
+                <TextView
+                    android:id="@+id/home_icon_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_toLeftOf="@+id/home_great"
+                    android:text="21"
+                    android:textColor="#f6f6f6"
+                    android:textSize="14sp"/>
+
+                <ImageView
+                    android:id="@+id/home_icon"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="3dp"
+                    android:layout_toLeftOf="@+id/home_icon_number"
+                    android:src="@drawable/pic"/>
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@+id/layout_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/shape_comic_like"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/img_top"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"/>
+
+                <TextView
+                    android:id="@+id/tv_top"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:gravity="center"
+                    android:text="\ 1"
+                    android:textColor="#f6f6f6"
+                    android:textSize="16sp"/>
+            </FrameLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/home_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:paddingLeft="2dp"
+                android:singleLine="true"
+                android:text="每日一猜，制服诱惑，你猜猜"
+                android:textColor="@color/txt_title"
+                android:textSize="16sp"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#dbdbdb"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

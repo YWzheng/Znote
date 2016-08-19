@@ -78,7 +78,7 @@
             android:id="@+id/progress_loading"
             android:layout_width="54dp"
             android:layout_height="68dp"
-            android:indeterminateDrawable="@drawable/page_loading"/>
+            android:indeterminateDrawable="@drawable/animation_list_page_loading"/>
 
     </TableRow>
 
