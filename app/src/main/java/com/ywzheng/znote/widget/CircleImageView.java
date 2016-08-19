@@ -147,4 +147,5 @@ public class CircleImageView extends ImageView {
         canvas.drawCircle(defaultWidth / 2, defaultHeight / 2, radius, paint);
     }
 
+
 }
