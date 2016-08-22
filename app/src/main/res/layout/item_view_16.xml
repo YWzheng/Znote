@@ -17,7 +17,7 @@
         android:id="@+id/ll_store"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:background="@drawable/listview_selector"
+        android:background="@drawable/selector_listview_selector"
         android:gravity="center_vertical"
         android:paddingLeft="16dp"
         android:paddingRight="12dp">
@@ -56,7 +56,7 @@
         android:id="@+id/ll_download"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:background="@drawable/listview_selector"
+        android:background="@drawable/selector_listview_selector"
         android:gravity="center_vertical"
         android:paddingLeft="16dp"
         android:paddingRight="12dp">
@@ -93,7 +93,7 @@
         android:id="@+id/ll_clear"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:background="@drawable/listview_selector"
+        android:background="@drawable/selector_listview_selector"
         android:gravity="center_vertical"
         android:paddingLeft="16dp"
         android:paddingRight="12dp">

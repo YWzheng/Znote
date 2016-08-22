@@ -101,7 +101,7 @@
                 android:id="@+id/rl_comic"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:background="@drawable/listview_selector"
+                android:background="@drawable/selector_listview_selector"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
                 android:paddingLeft="32dp"

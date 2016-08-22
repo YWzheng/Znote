@@ -84,7 +84,7 @@
             android:layout_width="36dp"
             android:layout_height="36dp"
             android:indeterminate="true"
-            android:indeterminateDrawable="@drawable/costum_progress_bar"
+            android:indeterminateDrawable="@drawable/rotate_costum_progress_bar"
             android:padding="3dp"/>
     </TableRow>
 

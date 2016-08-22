@@ -4,7 +4,7 @@
     <group android:checkableBehavior="single">
         <item
             android:checked="true"
-            android:icon="@drawable/home"
+            android:icon="@drawable/vector_home"
             android:title="首页"/>
 
         <item

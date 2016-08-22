@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="20.0dip"
-        android:background="@drawable/listview_selector"
+        android:background="@drawable/selector_listview_selector"
         android:clickable="true"
         android:orientation="vertical">
 

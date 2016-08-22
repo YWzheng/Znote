@@ -2,6 +2,7 @@ package com.ywzheng.znote;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
 
 /**
  * The project was established in 2016 on August 9,
@@ -19,10 +20,15 @@ public class MainActivity extends AppCompatActivity {
         if (savedInstanceState == null) {
             getSupportFragmentManager()
                     .beginTransaction()
-                    .replace(R.id.container,FragmentA.newInstance())
+                    .replace(R.id.container, FragmentA.newInstance())
                     .commit();
 
         }
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_toolbar_1, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
 }
