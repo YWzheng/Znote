@@ -1,4 +1,4 @@
-package com.ywzheng.znote;
+package com.ywzheng.znote.ui.activity;
 
 import android.graphics.Color;
 import android.os.Build;
@@ -29,4 +29,9 @@ public class TestActivity extends AppCompatActivity {
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         }
     }
+
+
+
+
+
 }

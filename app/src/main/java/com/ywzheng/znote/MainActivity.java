@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 
+import com.ywzheng.znote.ui.fragment.FragmentA;
+
 /**
  * The project was established in 2016 on August 9,
  * mainly to collect all kinds of UI effect and code
