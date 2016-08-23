@@ -4,8 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 
-import com.ywzheng.znote.ui.fragment.FragmentA;
-
 /**
  * The project was established in 2016 on August 9,
  * mainly to collect all kinds of UI effect and code
@@ -17,15 +15,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.progress_dialog_03);
 
-        if (savedInstanceState == null) {
-            getSupportFragmentManager()
-                    .beginTransaction()
-                    .replace(R.id.container, FragmentA.newInstance())
-                    .commit();
-
-        }
     }
 
     @Override
