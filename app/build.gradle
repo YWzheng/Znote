@@ -14,7 +14,7 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled false//是否开启混淆
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -32,4 +32,5 @@ dependencies {
     compile 'com.android.support:design:24.1.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha5'
 
+    //
 }
