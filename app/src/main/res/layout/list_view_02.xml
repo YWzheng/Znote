@@ -13,7 +13,7 @@
     android:scrollbarThumbVertical="@drawable/ic_scrollbar"
     android:scrollbars="vertical"
     app:layoutManager="LinearLayoutManager"
-    tools:listitem="@layout/item_view_19"/>
+    tools:listitem="@layout/item_view_21"/>
 
 
     <!--可以方便的查看列表效果-->
