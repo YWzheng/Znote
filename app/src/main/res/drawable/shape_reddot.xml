@@ -4,6 +4,6 @@
        android:useLevel="false">
     <solid android:color="@android:color/holo_red_light"/>
     <size
-        android:width="2.0dip"
-        android:height="2.0dip"/>
+        android:width="2dp"
+        android:height="2dp"/>
 </shape>

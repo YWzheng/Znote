@@ -4,7 +4,7 @@
         android:bottomLeftRadius="5dip"
         android:bottomRightRadius="5dip"
         android:topLeftRadius="5dip"
-        android:topRightRadius="5dip" />
+        android:topRightRadius="5dip"/>
     <solid android:color="@android:color/black"/>
 
 </shape>
