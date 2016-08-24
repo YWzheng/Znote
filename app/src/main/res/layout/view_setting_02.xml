@@ -81,7 +81,7 @@
         </RelativeLayout>
 
         <include
-            layout="@layout/item_view_18"
+            layout="@layout/view_setting_04"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
@@ -142,7 +142,7 @@
         </LinearLayout>
 
         <include
-            layout="@layout/item_view_16"
+            layout="@layout/view_setting_03"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>

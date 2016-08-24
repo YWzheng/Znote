@@ -1,0 +1,35 @@
+<FrameLayout android:id="@+id/layout_gallery"
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:fitsSystemWindows="true">
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="数据页"
+        android:visibility="gone"
+        />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminateOnly="true"
+        android:indeterminateTint="#ff00ff"/>
+
+    // TODO: 2016/8/24 加载出错页
+
+    <ViewStub
+        android:id="@+id/failedStub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inflatedId="@+id/failed"
+        android:layout="@layout/view_error_05"
+        android:visibility="gone"/>
+</FrameLayout>

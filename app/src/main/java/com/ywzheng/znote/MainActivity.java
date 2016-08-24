@@ -4,8 +4,9 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
 import android.view.View;
+
+import com.ywzheng.znote.ui.fragment.RevealFragment;
 
 /**
  * The project was established in 2016 on August 9,
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         mFragmentManager = getSupportFragmentManager();
         if (savedInstanceState == null) {
             mFragmentManager.beginTransaction()
-                    .replace(android.R.id.content, getFragment(), MainFragment.TAG)
+                    .replace(android.R.id.content, getFragment(), RevealFragment.TAG)
                     .commit();
         }
 
@@ -37,17 +38,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private Fragment getFragment() {
-        MainFragment fragment = (MainFragment) mFragmentManager
-                .findFragmentByTag(MainFragment.TAG);
+        RevealFragment fragment = (RevealFragment) mFragmentManager
+                .findFragmentByTag(RevealFragment.TAG);
         if (fragment == null) {
-            fragment = MainFragment.newInstance();
+            fragment = RevealFragment.newInstance();
         }
         return fragment;
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
+
 }

@@ -10,7 +10,7 @@
     app:cardElevation="3dp"
     app:cardPreventCornerOverlap="true"
     app:cardUseCompatPadding="true"
-    app:contentPadding="8dp">
+    app:contentPadding="4dp">
 
     <LinearLayout
         android:layout_width="match_parent"

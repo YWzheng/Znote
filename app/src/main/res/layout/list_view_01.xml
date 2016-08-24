@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#303030">
+    android:background="#303030"
+    android:orientation="vertical">
 
 
     <!--重点在滚动条颜色-->
@@ -26,7 +27,7 @@
         android:layout_height="match_parent"
         android:cacheColorHint="@android:color/transparent"
         android:descendantFocusability="blocksDescendants"
-        android:divider="#ffe0e0e0"
+        android:divider="#FFE0E0E0"
         android:dividerHeight="0.5dp"
         android:fadingEdge="none"
         android:fastScrollEnabled="false"
