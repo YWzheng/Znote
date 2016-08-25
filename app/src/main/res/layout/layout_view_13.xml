@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical"
+              android:weightSum="4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="XML中设置字体"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:ignore="MissingPrefix"
+        tools:targetApi="lollipop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@id/topImage"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            fontPath="fonts/Roboto-Thin.ttf"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#34495E"
+            android:gravity="center"
+            android:text="字体名称\nRoboto-Thin.ttf"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix"
+            tools:targetApi="lollipop"/>
+
+        <TextView
+            fontPath="fonts/arial.ttf"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#DEFFAC"
+            android:gravity="center"
+            android:text="字体名称\narial"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix"
+            tools:targetApi="lollipop"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@id/topImage"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            fontPath="fonts/Indira_K.ttf"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#57F7AF"
+            android:gravity="center"
+            android:text="字体名称\nIndira_K"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix"
+            tools:targetApi="lollipop"/>
+
+        <TextView
+            fontPath="fonts/NanumBarunGothic.ttf"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#5747AF"
+            android:gravity="center"
+            android:text="字体名称\nNanumBarunGothic"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix"
+            tools:targetApi="lollipop"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@id/topImage"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            fontPath="fonts/NanumBarunGothicBold.ttf"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF95CA"
+            android:gravity="center"
+            android:text="字体名称\nNanumBarunGothicBold"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix"
+            tools:targetApi="lollipop"/>
+
+        <TextView
+            fontPath="fonts/Roboto-Medium.ttf"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#6FB7B7"
+            android:gravity="center"
+            android:text="字体名称\nRoboto-Medium"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix"
+            tools:targetApi="lollipop"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@id/topImage"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            fontPath="fonts/Roboto-Monospace-Regular.ttf"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#AFAF61"
+            android:gravity="center"
+            android:text="字体名称\nRoboto-Monospace-Regular"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix"
+            tools:targetApi="lollipop"/>
+
+        <TextView
+            fontPath="fonts/Roboto-Regular.ttf"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#007500"
+            android:gravity="center"
+            android:text="字体名称\nRoboto-Regular"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix"
+            tools:targetApi="lollipop"/>
+
+    </LinearLayout>
+
+</LinearLayout>

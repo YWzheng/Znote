@@ -21,8 +21,7 @@
         android:textColor="#ffffff"
         android:textSize="32sp"
         tools:ignore="MissingPrefix"
-        tools:targetApi="lollipop"
-        />
+        tools:targetApi="lollipop"/>
 
     <TextView
         android:id="@+id/text_view_slogan"
