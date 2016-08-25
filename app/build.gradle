@@ -33,7 +33,7 @@ dependencies {
     compile 'com.android.support:design:24.2.0'
 
     //update 2016-8-24
-    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
+    compile 'com.android.support.constraint:constraint-layout_view_14:1.0.0-alpha7'
 
     //jakewharton
     compile 'com.jakewharton:butterknife:8.3.0'

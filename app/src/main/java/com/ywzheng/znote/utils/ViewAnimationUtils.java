@@ -57,9 +57,9 @@ public class ViewAnimationUtils {
 
     /**
      * Create a simple circular reveal for a given view id within a root view.
-     * This reveal will start from the start view's boundaries until it fills the root layout.
+     * This reveal will start from the start view's boundaries until it fills the root layout_view_14.
      *
-     * @param rootView     The layout's root.
+     * @param rootView     The layout_view_14's root.
      * @param startViewId  The id of the view to use as animation source.
      * @param interpolator The interpolator to use.
      * @return The created circular reveal.
