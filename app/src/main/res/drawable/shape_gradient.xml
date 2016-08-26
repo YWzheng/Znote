@@ -2,12 +2,10 @@
        android:shape="rectangle">
     <gradient
         android:angle="135"
-        android:centerColor="#FFEB3B"
-        android:endColor="#34495E"
-        android:startColor="#FF4081"
+        android:centerColor="#4CAF50"
+        android:endColor="#2E7D32"
+        android:startColor="#81C784"
         android:type="linear"/>
-
-
     <!--渐变色
     angle：角度（0-180度）
     centerColor：中间色值
