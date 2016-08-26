@@ -171,12 +171,20 @@
         <android.support.design.widget.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|right|end"
+            android:layout_gravity="center"
             android:src="@drawable/ic_done"
             app:backgroundTint="#038314"
             app:borderWidth="0dp"
             app:fabSize="mini">
         </android.support.design.widget.FloatingActionButton>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:backgroundTint="#00fF00"
+            android:src="@drawable/add"/>
     </TableRow>
 
 
