@@ -4,6 +4,15 @@
        android:layout_height="match_parent"
        android:orientation="vertical">
 
+    <!--
+    <merge />  标签来减少视图层级结构
+     注意：
+     1.只可以作为xml layout的根节点。
+     2.当需要扩充的xml layout本身是由merge作为根节点的话，
+     需要将被导入的xml layout置于 viewGroup中，
+       同时需要设置attachToRoot为True
+    -->
+    
     <TextView
         android:id="@+id/tv_load_empty"
         android:layout_width="wrap_content"
