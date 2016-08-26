@@ -53,7 +53,7 @@
                 style="@style/SwitchButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@drawable/selector_text_state_color"
+                android:textColor="@color/selector_text_state_color"
                 android:textSize="16dp"
                 app:kswTextOff="Off"
                 app:kswTextOn="On"

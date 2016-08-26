@@ -11,7 +11,7 @@
         android:id="@+id/btn_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/selector_item_bg_gen_light"
+        android:background="@color/selector_item_bg_gen_light"
         android:orientation="horizontal"
         android:padding="8dp">
 

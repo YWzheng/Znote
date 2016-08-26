@@ -35,7 +35,7 @@
     <style name="radioButton" parent="android:Widget.CompoundButton.RadioButton">
         <item name="android:button">@android:color/transparent</item>
         <item name="android:gravity">center</item>
-        <item name="android:textColor">@drawable/selector_bottom_text</item>
+        <item name="android:textColor">@color/selector_bottom_text</item>
         <item name="android:textSize">14dp</item>
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
@@ -101,7 +101,7 @@
 
     <style name="SwitchButtonMD">
         <item name="kswThumbDrawable">@drawable/selector_ksw_md_thumb</item>
-        <item name="kswBackColor">@drawable/selector_ksw_md_back</item>
+        <item name="kswBackColor">@color/selector_ksw_md_back</item>
         <item name="kswBackMeasureRatio">1.45</item>
         <item name="kswThumbMarginLeft">-16dp</item>
         <item name="kswThumbMarginTop">-14dp</item>
