@@ -161,7 +161,7 @@
             android:layout_alignParentStart="true"
             android:layout_marginLeft="10dp"
             android:layout_marginStart="11dp"
-            android:src="@drawable/ic_avatar1"
+            android:src="@drawable/q9"
             android:transitionName="transitionImg"/>
 
 
