@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     不明白why v21中这样
+-->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        android:color="#212121">
+    <item>
+        <layer-list>
+            <item>
+                <bitmap android:src="@drawable/drop_shadow_layer"/>
+            </item>
+
+            <item
+                android:bottom="9dp"
+                android:left="9dp"
+                android:right="9dp"
+                android:top="9dp">
+                <shape android:shape="oval">
+                    <solid android:color="#325C80"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</ripple>
