@@ -18,7 +18,7 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
 import com.ywzheng.znote.R;
-import com.ywzheng.znote.utils.ViewAnimationUtils;
+import com.ywzheng.znote.utils.my.ViewAnimationUtils;
 
 /**
  * Created by yongwei on 2016/8/24.

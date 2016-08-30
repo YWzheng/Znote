@@ -1,4 +1,4 @@
-package com.ywzheng.znote.utils;
+package com.ywzheng.znote.utils.my;
 
 import android.content.res.Resources;
 import android.graphics.Rect;

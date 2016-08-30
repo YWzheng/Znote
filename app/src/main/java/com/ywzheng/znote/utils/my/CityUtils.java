@@ -14,7 +14,7 @@
  * and limitations under the License.
  */
 
-package com.ywzheng.znote.utils;
+package com.ywzheng.znote.utils.my;
 
 /**
  * Helper class to hold a bunch of cities.
