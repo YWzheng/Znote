@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:button="@drawable/fab_heart"/>
+        android:button="@drawable/animated_selector_fab_heart"/>
 
     <TextView
         android:layout_width="match_parent"
