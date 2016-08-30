@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+              android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
@@ -10,5 +11,21 @@
         android:gravity="left|center_vertical"
         android:paddingLeft="8dp"
         android:text="重点在于左侧的线"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:button="@drawable/fab_heart"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/shape_bg_shadow_corners_rectangle"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="带阴影的圆角矩形"/>
 
 </LinearLayout>
