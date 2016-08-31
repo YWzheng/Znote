@@ -28,4 +28,9 @@
         android:padding="16dp"
         android:text="带阴影的圆角矩形"/>
 
+    <com.ywzheng.znote.widget.FadeEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="The quick brown fox jumps over the lazy dog.The quick brown fox jumps over the lazy dog."/>
 </LinearLayout>

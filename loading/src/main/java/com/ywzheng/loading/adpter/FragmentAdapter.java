@@ -8,17 +8,22 @@ import com.ywzheng.loading.fragment.Afragment;
 import com.ywzheng.loading.fragment.Bfragment;
 import com.ywzheng.loading.fragment.Cfragment;
 import com.ywzheng.loading.fragment.Dfragment;
+import com.ywzheng.loading.fragment.Efragment;
+import com.ywzheng.loading.fragment.Ffragment;
+import com.ywzheng.loading.fragment.Gfragment;
 
 /**
  * Created by yongwei on 16/8/26.
  */
 public class FragmentAdapter extends FragmentPagerAdapter {
 
-    private final  String[] mTitles = {"系统","自定义","直播","分区","发现"};
+    private final String[] mTitles = {"系统", "自定义", "直播", "分区", "发现", "直播", "分区", "发现", "直播", "分区", "发现"};
     private Fragment[] fragments;
+    private int fragmentSize = 8;
+
     public FragmentAdapter(FragmentManager fm) {
         super(fm);
-        fragments = new Fragment[5];
+        fragments = new Fragment[fragmentSize];
     }
 
 
@@ -41,6 +46,15 @@ public class FragmentAdapter extends FragmentPagerAdapter {
                 case 4:
                     fragments[position] = Afragment.newInstance();
                     break;
+                case 5:
+                    fragments[position] = Efragment.newInstance();
+                    break;
+                case 6:
+                    fragments[position] = Ffragment.newInstance();
+                    break;
+                case 7:
+                    fragments[position] = Gfragment.newInstance();
+                    break;
                 default:
                     fragments[position] = Afragment.newInstance();
                     break;
@@ -53,7 +67,7 @@ public class FragmentAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 5;
+        return fragmentSize;
     }
 
     @Override
