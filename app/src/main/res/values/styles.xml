@@ -43,14 +43,7 @@
         <item name="android:background">@android:color/transparent</item>
     </style>
 
-    <!--自定义的progressbar-->
-    <style name="mProgress_circle" parent="@android:style/Widget.ProgressBar">
-        <item name="android:indeterminateDrawable">@drawable/rotate_refresh_progress</item>
-        <item name="android:minWidth">50dp</item>
-        <item name="android:minHeight">50dp</item>
-        <item name="android:maxWidth">60dp</item>
-        <item name="android:maxHeight">60dp</item>
-    </style>
+
 
     <!--widget.CustomToast-->
     <style name="CustomToast_textAppearance">
@@ -74,14 +67,7 @@
         <item name="android:gravity">center_vertical</item>
     </style>
 
-    <style name="Spinner">
-        <item name="android:indeterminate">true</item>
-        <item name="android:indeterminateDrawable">@drawable/layer_list_spinner</item>
-        <item name="android:indeterminateDuration">2000</item>
-        <item name="android:indeterminateOnly">true</item>
-        <item name="android:layout_width">64dp</item>
-        <item name="android:layout_height">64dp</item>
-    </style>
+
 
 
     <!--switch_button_01-->
