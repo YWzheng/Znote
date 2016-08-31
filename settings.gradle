@@ -1,1 +1,1 @@
-include ':app', ':loading', ':crashhandler', ':welcome'
+include ':app', ':loading', ':crashhandler', ':welcome', ':login'

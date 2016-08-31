@@ -135,7 +135,7 @@
             android:layout_weight="1.0"
             android:background="@drawable/selector_reg_btn_bg"
             android:text="注册"
-            android:textColor="@color/white"
+            android:textColor="@android:color/white"
             android:textSize="18.0sp"
             android:textStyle="bold"
             android:visibility="gone"/>
@@ -147,7 +147,7 @@
             android:layout_weight="1.0"
             android:background="@drawable/selector_login_bg"
             android:text="登　　录"
-            android:textColor="@color/white"
+            android:textColor="@android:color/white"
             android:textSize="20sp"/>
     </LinearLayout>
 
@@ -164,7 +164,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="5.0dip"
             android:text="注册"
-            android:textColor="@color/white"
+            android:textColor="@android:color/white"
             android:textSize="14.0sp"/>
 
         <TextView
@@ -174,7 +174,7 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:text="忘记密码 ?"
-            android:textColor="@color/white"
+            android:textColor="@android:color/white"
             android:textSize="14.0sp"/>
     </RelativeLayout>
 </LinearLayout>

@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/crashhandler" />
             <option value="$PROJECT_DIR$/loading" />
+            <option value="$PROJECT_DIR$/login" />
             <option value="$PROJECT_DIR$/welcome" />
           </set>
         </option>

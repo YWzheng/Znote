@@ -1,18 +1,16 @@
-package com.ywzheng.welcome.adapter;
+package com.ywzheng.login.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.ywzheng.welcome.fragment.Afragment;
-import com.ywzheng.welcome.fragment.Bfragment;
-import com.ywzheng.welcome.fragment.Cfragment;
-import com.ywzheng.welcome.fragment.Dfragment;
-import com.ywzheng.welcome.fragment.Efragment;
-import com.ywzheng.welcome.fragment.Ffragment;
-import com.ywzheng.welcome.fragment.Gfragment;
-import com.ywzheng.welcome.fragment.Hfragment;
-import com.ywzheng.welcome.fragment.Ifragment;
+import com.ywzheng.login.fragment.Afragment;
+import com.ywzheng.login.fragment.Bfragment;
+import com.ywzheng.login.fragment.Cfragment;
+import com.ywzheng.login.fragment.Dfragment;
+import com.ywzheng.login.fragment.Efragment;
+import com.ywzheng.login.fragment.Ffragment;
+
 
 /**
  * Created by yongwei on 16/8/26.
@@ -20,7 +18,7 @@ import com.ywzheng.welcome.fragment.Ifragment;
 public class FragmentAdapter extends FragmentPagerAdapter {
 
     private Fragment[] fragments;
-    private int fragmentSize=8;
+    private int fragmentSize=6;
 
     public FragmentAdapter(FragmentManager fm) {
         super(fm);
@@ -49,15 +47,6 @@ public class FragmentAdapter extends FragmentPagerAdapter {
                     break;
                 case 5:
                     fragments[position] = Ffragment.newInstance();
-                    break;
-                case 6:
-                    fragments[position] = Gfragment.newInstance();
-                    break;
-                case 7:
-                    fragments[position] = Hfragment.newInstance();
-                    break;
-                case 8:
-                    fragments[position] = Ifragment.newInstance();
                     break;
                 default:
                     fragments[position] = Afragment.newInstance();
