@@ -10,4 +10,9 @@
     <declare-styleable name="CradleBall">
         <attr name="cradle_ball_color" format="color" />
     </declare-styleable>
+
+    <declare-styleable name="SpinnerLoading">
+        <attr name="circle_color" format="color"/>
+        <attr name="circle_color_move" format="color"/>
+    </declare-styleable>
 </resources>
