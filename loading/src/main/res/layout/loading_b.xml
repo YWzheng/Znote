@@ -12,32 +12,12 @@
         android:background="#747474"
         app:layout_heightPercent="25%"
         app:layout_widthPercent="50%">
-
-        <android.support.v4.widget.ContentLoadingProgressBar
-            style="?android:attr/progressBarStyleSmallInverse"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_centerInParent="true"/>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/two"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:background="#545454"
-        app:layout_heightPercent="25%"
-        app:layout_widthPercent="50%">
-
-        <!--progressBarStyleLarge-->
+        <!--章鱼猫-->
         <ProgressBar
-            android:layout_width="match_parent"
-            android:layout_height="32dp"
+            android:id="@+id/pb_loading"
+            style="@style/Spinner"
             android:layout_centerInParent="true"
-            android:indeterminateTint="#408080"/>
-
+            android:layout_gravity="center|center_horizontal"/>
     </RelativeLayout>
 
     <RelativeLayout
@@ -53,12 +33,11 @@
 
 
         <ProgressBar
-            style="@android:style/Widget.ProgressBar.Small"
+            style="@style/mProgress_circle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:layout_marginRight="4dp"
-            android:layout_weight="1"/>
+            android:indeterminateDuration="7500"/>
 
     </RelativeLayout>
 
@@ -74,12 +53,16 @@
         app:layout_widthPercent="50%">
 
 
-        <ProgressBar
-            android:id="@+id/progressBar"
-            style="?android:attr/progressBarStyleSmall"
+        <com.ywzheng.loading.widget.IQiYiLoadingView
+            style="@style/mProgress_circle"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_centerInParent="true"/>
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateDuration="1500"
+            app:layout_heightPercent="20%"
+            app:layout_marginLeftPercent="5%"
+            app:layout_marginRightPercent="5%"
+            app:layout_widthPercent="30%"/>
 
     </RelativeLayout>
 
@@ -95,12 +78,13 @@
         app:layout_widthPercent="50%">
 
 
-        <!--progressBarStyleLarge-->
         <ProgressBar
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar.Small"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:layout_centerInParent="true"
-            android:indeterminateTint="#FFF"/>
+            android:indeterminateDrawable="@drawable/layer_list_dialog_animated_spinner"
+            android:indeterminateDuration="800"/>
 
     </RelativeLayout>
 
@@ -111,18 +95,17 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/four"
-        android:background="#0061AE"
+        android:background="#402030"
         app:layout_heightPercent="25%"
         app:layout_widthPercent="50%">
 
 
-        <!--progressBarStyleLarge-->
-        <android.support.v4.widget.ContentLoadingProgressBar
-            style="?android:attr/progressBarStyleLargeInverse"
-            android:layout_width="match_parent"
+        <com.ywzheng.loading.widget.IQiYiLoadingView
+            style="@style/mProgress_circle"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:indeterminateTint="#FFFFFF"/>
+            android:indeterminateDuration="1500"/>
 
     </RelativeLayout>
 
@@ -168,5 +151,24 @@
 
     </RelativeLayout>
 
+    <RelativeLayout
+        android:id="@+id/two"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#545454"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="50%">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/rotate_animdraw2"
+            android:indeterminateDuration="1500"/>
+
+    </RelativeLayout>
 
 </android.support.percent.PercentRelativeLayout>

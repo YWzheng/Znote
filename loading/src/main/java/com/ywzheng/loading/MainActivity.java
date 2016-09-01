@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity
 
         mNavView.setNavigationItemSelectedListener(this);
         FragmentAdapter mAdapter = new FragmentAdapter(getSupportFragmentManager());
+        mViewPager.setOffscreenPageLimit(2);
         mViewPager.setAdapter(mAdapter);
         mTabs.setupWithViewPager(mViewPager);
     }

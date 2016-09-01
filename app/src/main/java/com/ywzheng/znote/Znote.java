@@ -10,6 +10,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.widget.TextView;
 
+import java.io.IOException;
+import java.io.InputStream;
+
 /**
  * 杂记
  * Created by yongwei on 2016/8/29.
@@ -51,6 +54,21 @@ public class Znote extends AppCompatActivity {
                 .show();
 
 
+    }
 
+    public String loadJSONFromAsset() {
+        String json = null;
+        try {
+            InputStream is = getResources().openRawResource(R.raw.data);
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
     }
 }
