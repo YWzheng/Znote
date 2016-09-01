@@ -9,4 +9,11 @@
         <attr name="pv_background_color" format="color"></attr>
     </declare-styleable>
 
+    <declare-styleable name="TwitterSplashView">
+        <attr name="icon" format="reference"/>
+        <attr name="iconColor" format="color"/>
+        <attr name="holeFillColor" format="color"/>
+        <attr name="duration" format="integer"/>
+        <attr name="removeFromParentOnEnd" format="boolean"/>
+    </declare-styleable>
 </resources>
