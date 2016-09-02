@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/login_bg1"
     android:orientation="vertical">
-
+    <!--返回箭头为什么是黑色的呢？-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3A4E68"
+        android:clickable="true"
+        app:layout_collapseMode="pin"
+        app:navigationIcon="?homeAsUpIndicator"
+        app:title="登录"
+        app:titleTextColor="#FFFFFF"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     android:background="#f1f1f1"
     android:fitsSystemWindows="true">
+    <!--返回箭头为什么是黑色的呢？-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FA7198"
+        android:clickable="true"
+        app:layout_collapseMode="pin"
+        app:navigationIcon="?homeAsUpIndicator"
+        app:title="登录"
+        app:titleTextColor="#FFFFFF"/>
 
     <LinearLayout
         android:id="@+id/login_ll"
@@ -88,7 +99,7 @@
         android:background="@drawable/selector_corner_btn"
         android:gravity="center"
         android:text="登录"
-        android:textColor="@android:color/white"
+        android:textColor="#FFFFFF"
         android:textSize="16sp"/>
 
     <RelativeLayout
@@ -97,6 +108,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
         android:orientation="horizontal">
         <!--@drawable/ic_22_hide-->
         <ImageView
