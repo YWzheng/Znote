@@ -48,4 +48,53 @@
         app:mvAnimDuration="500"
         app:mvInterval="2000"
         app:mvTextColor="#FF0000"/>
+
+    <com.ywzheng.znote.widget.MoneyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        app:amount="1256.56"
+        app:baseTextColor="#FBFFE3"
+        app:baseTextSize="54sp"
+        app:decimalDigitsTextSize="30sp"
+        app:decimalMargin="6dp"
+        app:includeDecimalSeparator="false"
+        app:symbol="$"
+        app:symbolGravity="start|top"
+        app:symbolMargin="6dp"
+        app:symbolTextSize="30sp"/>
+
+    <com.ywzheng.znote.widget.MoneyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:amount="1256.56"
+        app:baseTextColor="#FF0000"
+        app:baseTextSize="54sp"
+        app:decimalDigitsTextSize="30sp"
+        app:decimalGravity="bottom"
+        app:decimalMargin="6dp"
+        app:decimalSeparator="."
+        app:includeDecimalSeparator="false"
+        app:symbol="¥"
+        app:symbolGravity="start|bottom"
+        app:symbolTextSize="30sp"/>
+
+    <com.ywzheng.znote.widget.MoneyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        app:amount="1256.56"
+        app:baseTextColor="#FBFFE3"
+        app:baseTextSize="54sp"
+        app:decimalDigitsTextSize="30sp"
+        app:decimalGravity="top"
+        app:decimalSeparator="'"
+        app:symbol="€"
+        app:symbolGravity="end|top"
+        app:symbolTextSize="30sp"/>
+
 </LinearLayout>
