@@ -12,12 +12,13 @@
         android:background="#747474"
         app:layout_heightPercent="25%"
         app:layout_widthPercent="50%">
-        <!--章鱼猫-->
-        <ProgressBar
-            android:id="@+id/pb_loading"
-            style="@style/Spinner"
+
+        <com.ywzheng.loading.widget.CircularCD
+            android:id="@+id/lv_circularCD"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_centerInParent="true"
-            android:layout_gravity="center|center_horizontal"/>
+            android:onClick="startAnim"/>
     </RelativeLayout>
 
     <RelativeLayout
@@ -32,12 +33,12 @@
         app:layout_widthPercent="50%">
 
 
-        <ProgressBar
-            style="@style/mProgress_circle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <com.ywzheng.loading.widget.Circular
+            android:id="@+id/lv_circular"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_centerInParent="true"
-            android:indeterminateDuration="7500"/>
+            android:onClick="startAnim"/>
 
     </RelativeLayout>
 
@@ -53,16 +54,12 @@
         app:layout_widthPercent="50%">
 
 
-        <com.ywzheng.loading.widget.IQiYiLoadingView
-            style="@style/mProgress_circle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <com.ywzheng.loading.widget.FinePoiStar
+            android:id="@+id/lv_finePoiStar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_centerInParent="true"
-            android:indeterminateDuration="1500"
-            app:layout_heightPercent="20%"
-            app:layout_marginLeftPercent="5%"
-            app:layout_marginRightPercent="5%"
-            app:layout_widthPercent="30%"/>
+            android:onClick="startAnim"/>
 
     </RelativeLayout>
 
@@ -78,13 +75,12 @@
         app:layout_widthPercent="50%">
 
 
-        <ProgressBar
-            style="@android:style/Widget.ProgressBar.Small"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+        <com.ywzheng.loading.widget.CircularSmile
+            android:id="@+id/lv_circularSmile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_centerInParent="true"
-            android:indeterminateDrawable="@drawable/layer_list_dialog_animated_spinner"
-            android:indeterminateDuration="800"/>
+            android:onClick="startAnim"/>
 
     </RelativeLayout>
 
@@ -100,12 +96,12 @@
         app:layout_widthPercent="50%">
 
 
-        <com.ywzheng.loading.widget.LineWithText
-            android:id="@+id/linewithtext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <com.ywzheng.loading.widget.Gears
+            android:id="@+id/lv_gears"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_centerInParent="true"
-            android:indeterminateDuration="1500"/>
+            android:onClick="startAnim"/>
 
     </RelativeLayout>
 
@@ -121,12 +117,13 @@
         app:layout_widthPercent="50%">
 
 
-        <com.ywzheng.loading.widget.IQiYiLoadingView
-            style="@style/mProgress_circle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <com.ywzheng.loading.widget.GearsTwo
+            android:id="@+id/lv_gears_two"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:layout_centerInParent="true"
-            android:indeterminateDuration="1500"/>
+            android:onClick="startAnim"
+            />
 
     </RelativeLayout>
 
@@ -142,12 +139,12 @@
         app:layout_widthPercent="50%">
 
 
-        <com.ywzheng.loading.widget.IQiYiLoadingView
-            style="@style/mProgress_circle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <com.ywzheng.loading.widget.LVWifi
+            android:id="@+id/lv_wifi"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_centerInParent="true"
-            android:indeterminateDuration="1500"/>
+            android:onClick="startAnim"/>
 
     </RelativeLayout>
 
@@ -162,12 +159,12 @@
         app:layout_heightPercent="25%"
         app:layout_widthPercent="50%">
 
-        <ProgressBar
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <com.ywzheng.loading.widget.CircularRing
+            android:id="@+id/lv_circularring"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_centerInParent="true"
-            android:indeterminateDrawable="@drawable/rotate_animdraw2"
-            android:indeterminateDuration="1500"/>
+            android:onClick="startAnim"/>
 
     </RelativeLayout>
 

@@ -16,6 +16,8 @@ import com.ywzheng.loading.fragment.Ifragment;
 import com.ywzheng.loading.fragment.Jfragment;
 import com.ywzheng.loading.fragment.Kfragment;
 import com.ywzheng.loading.fragment.Lfragment;
+import com.ywzheng.loading.fragment.Mfragment;
+import com.ywzheng.loading.fragment.Nfragment;
 
 /**
  * Created by yongwei on 16/8/26.
@@ -24,7 +26,7 @@ public class FragmentAdapter extends FragmentPagerAdapter {
 
     private final String[] mTitles = {"系统", "自定义", "直播", "分区", "发现", "直播", "分区", "发现", "直播", "分区", "发现", "发现", "发现"};
     private Fragment[] fragments;
-    private int fragmentSize = 13;
+    private int fragmentSize = 14;
 
     public FragmentAdapter(FragmentManager fm) {
         super(fm);
@@ -42,14 +44,14 @@ public class FragmentAdapter extends FragmentPagerAdapter {
                 case 1:
                     fragments[position] = Bfragment.newInstance();
                     break;
-                case 2:
+                case 4:
                     fragments[position] = Cfragment.newInstance();
                     break;
                 case 3:
-                    fragments[position] = Dfragment.newInstance();
+                    fragments[position] = Nfragment.newInstance();
                     break;
-                case 4:
-                    fragments[position] = Afragment.newInstance();
+                case 2:
+                    fragments[position] = Mfragment.newInstance();
                     break;
                 case 5:
                     fragments[position] = Efragment.newInstance();
@@ -75,6 +77,9 @@ public class FragmentAdapter extends FragmentPagerAdapter {
                 case 12:
                     fragments[position] = Lfragment.newInstance();
                     break;
+                case 13:
+                    fragments[position] = Dfragment.newInstance();
+                    break;
                 default:
                     fragments[position] = Afragment.newInstance();
                     break;
@@ -92,6 +97,6 @@ public class FragmentAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-        return mTitles[position];
+        return "待定";
     }
 }
