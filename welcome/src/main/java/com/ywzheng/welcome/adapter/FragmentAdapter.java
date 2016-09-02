@@ -14,6 +14,7 @@ import com.ywzheng.welcome.fragment.Gfragment;
 import com.ywzheng.welcome.fragment.Hfragment;
 import com.ywzheng.welcome.fragment.Ifragment;
 import com.ywzheng.welcome.fragment.Jfragment;
+import com.ywzheng.welcome.fragment.Kfragment;
 
 /**
  * Created by yongwei on 16/8/26.
@@ -21,7 +22,7 @@ import com.ywzheng.welcome.fragment.Jfragment;
 public class FragmentAdapter extends FragmentPagerAdapter {
 
     private Fragment[] fragments;
-    private int fragmentSize=10;
+    private int fragmentSize=11;
 
     public FragmentAdapter(FragmentManager fm) {
         super(fm);
@@ -62,6 +63,9 @@ public class FragmentAdapter extends FragmentPagerAdapter {
                     break;
                 case 9:
                     fragments[position] = Jfragment.newInstance();
+                    break;
+                case 10:
+                    fragments[position] = Kfragment.newInstance();
                     break;
                 default:
                     fragments[position] = Afragment.newInstance();

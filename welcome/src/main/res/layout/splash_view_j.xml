@@ -5,7 +5,7 @@
              android:layout_width="match_parent"
              android:layout_height="match_parent">
 
-    <com.ywzheng.welcome.widget.twitter.SplashViewplashView
+    <com.ywzheng.welcome.widget.twitter.SplashView
         android:id="@+id/splash_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -53,7 +53,7 @@ public class Jfragment extends Fragment {
         // change the DO_XML variable to switch between code and xml
         if (DO_XML) {
             // inflate the view from XML and then get a reference to it
-            view = inflater.inflate(R.layout.splash_view_i, container, false);
+            view = inflater.inflate(R.layout.splash_view_j, container, false);
             return view;
         } else {
             // create the main view and it will handle the rest
