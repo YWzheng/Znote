@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/shape_bg_main_item"
+    android:paddingBottom="16dp">
+
+    <RelativeLayout
+        android:id="@+id/item_consumer_detail_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        tools:background="#10b4a5">
+
+        <ImageView
+            android:id="@+id/item_consumer_detail_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:scaleType="center"
+            tools:src="@drawable/ic_parking"/>
+
+        <TextView
+            android:id="@+id/item_consumer_detail_money"
+            style="@style/ListItemMoney"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            tools:text="$ 600"/>
+
+        <ImageView style="@style/ConsumerDetail.Wave"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_consumer_detail_tag"
+        style="@style/ItemText.Gray.Normal"
+        android:layout_below="@id/item_consumer_detail_top_layout"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_tag"
+        android:drawablePadding="8dp"
+        tools:text="加油费用"
+        tools:textColor="#10b4a5"/>
+
+    <TextView
+        android:id="@+id/item_consumer_detail_time"
+        style="@style/ItemText.Gray.Normal"
+        android:layout_below="@id/item_consumer_detail_tag"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:drawableLeft="@drawable/ic_time"
+        android:drawablePadding="8dp"
+        tools:text="2016-05-23"/>
+
+    <ImageView
+        android:id="@+id/item_consumer_detail_notes_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_consumer_detail_time"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/ic_notes"/>
+
+    <TextView
+        android:id="@+id/item_consumer_detail_notes"
+        style="@style/ItemText.Gray.Normal"
+        android:layout_below="@id/item_consumer_detail_time"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/item_consumer_detail_notes_icon"/>
+</RelativeLayout>
