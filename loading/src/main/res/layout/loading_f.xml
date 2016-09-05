@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/one"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#ff071c28"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="50%">
+
+        <app.dinus.com.loadingdrawable.LoadingView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:loading_renderer="CollisionLoadingRenderer"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/two"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffcdcdcd"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="50%">
+
+        <app.dinus.com.loadingdrawable.LoadingView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:loading_renderer="SwapLoadingRenderer"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/three"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/one"
+        android:background="#ffe9e4d1"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="50%">
+
+        <app.dinus.com.loadingdrawable.LoadingView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:loading_renderer="GuardLoadingRenderer"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/five"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/three"
+        android:background="#ff000000"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="50%">
+
+        <app.dinus.com.loadingdrawable.LoadingView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:loading_renderer="WhorlLoadingRenderer"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/seven"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/five"
+        android:background="#ffe6ebed"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="50%">
+
+        <app.dinus.com.loadingdrawable.LoadingView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:loading_renderer="GearLoadingRenderer"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/eight"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="#ff2a8cc8"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="50%">
+
+        <app.dinus.com.loadingdrawable.LoadingView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:loading_renderer="LevelLoadingRenderer"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/four"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#ff9c0000"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="50%"
+        android:layout_above="@+id/six"
+        android:layout_alignParentEnd="true">
+
+        <app.dinus.com.loadingdrawable.LoadingView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:loading_renderer="DanceLoadingRenderer"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/six"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#ff94d0c1"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="50%"
+        android:layout_above="@+id/eight"
+        android:layout_alignParentEnd="true">
+
+        <app.dinus.com.loadingdrawable.LoadingView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:loading_renderer="MaterialLoadingRenderer"/>
+    </RelativeLayout>
+
+
+</android.support.percent.PercentRelativeLayout>

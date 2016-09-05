@@ -9,29 +9,37 @@ import android.view.ViewGroup;
 
 import com.ywzheng.loading.R;
 
+import butterknife.ButterKnife;
+
 /**
  * Created by yongwei on 2016/8/31.
  */
 
-public class Cfragment extends Fragment {
+public class Qfragment extends Fragment {
 
-    private static Cfragment cfragment;
+    private static Qfragment qfragment;
 
-    public static Cfragment newInstance() {
-        if (cfragment != null) {
-            return cfragment;
+
+    public static Qfragment newInstance() {
+        if (qfragment != null) {
+            return qfragment;
         }
-        synchronized (Cfragment.class) {
-            if (cfragment == null) {
-                return new Cfragment();
+        synchronized (Qfragment.class) {
+            if (qfragment == null) {
+                return new Qfragment();
             }
         }
-        return cfragment;
+        return qfragment;
     }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.loading_e, container, false);
+        View view = inflater.inflate(R.layout.loading_f, container, false);
+        ButterKnife.bind(this, view);
+        return view;
     }
+
+
+
 }
