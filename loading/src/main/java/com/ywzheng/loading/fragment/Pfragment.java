@@ -35,7 +35,7 @@ public class Pfragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.loading_e, container, false);
+        View view = inflater.inflate(R.layout.loading_f, container, false);
         ButterKnife.bind(this, view);
         return view;
     }
