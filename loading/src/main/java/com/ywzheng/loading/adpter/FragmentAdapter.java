@@ -18,6 +18,7 @@ import com.ywzheng.loading.fragment.Kfragment;
 import com.ywzheng.loading.fragment.Lfragment;
 import com.ywzheng.loading.fragment.Mfragment;
 import com.ywzheng.loading.fragment.Nfragment;
+import com.ywzheng.loading.fragment.Ofragment;
 
 /**
  * Created by yongwei on 16/8/26.
@@ -26,7 +27,7 @@ public class FragmentAdapter extends FragmentPagerAdapter {
 
     private final String[] mTitles = {"系统", "自定义", "直播", "分区", "发现", "直播", "分区", "发现", "直播", "分区", "发现", "发现", "发现"};
     private Fragment[] fragments;
-    private int fragmentSize = 14;
+    private int fragmentSize = 15;
 
     public FragmentAdapter(FragmentManager fm) {
         super(fm);
@@ -79,6 +80,9 @@ public class FragmentAdapter extends FragmentPagerAdapter {
                     break;
                 case 13:
                     fragments[position] = Dfragment.newInstance();
+                    break;
+                case 14:
+                    fragments[position] = Ofragment.newInstance();
                     break;
                 default:
                     fragments[position] = Afragment.newInstance();
