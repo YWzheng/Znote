@@ -33,7 +33,7 @@
             android:layout_height="84dp"
             android:layout_gravity="start|top"
             android:layout_margin="16dp"
-            android:src="@drawable/ic_avatar1"
+            android:src="@drawable/q1"
             />
 
 

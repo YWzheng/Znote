@@ -12,7 +12,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/ic_avatar1"/>
+        android:src="@drawable/q2"/>
 
     <TextView
         android:layout_width="wrap_content"

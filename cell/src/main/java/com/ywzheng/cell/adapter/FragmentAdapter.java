@@ -5,6 +5,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import com.ywzheng.cell.fragment.Afragment;
+import com.ywzheng.cell.fragment.Bfragment;
 
 
 /**
@@ -13,7 +14,7 @@ import com.ywzheng.cell.fragment.Afragment;
 public class FragmentAdapter extends FragmentPagerAdapter {
 
     private Fragment[] fragments;
-    private int fragmentSize = 1;
+    private int fragmentSize = 2;
 
     public FragmentAdapter(FragmentManager fm) {
         super(fm);
@@ -27,6 +28,9 @@ public class FragmentAdapter extends FragmentPagerAdapter {
             switch (position) {
                 case 0:
                     fragments[position] = Afragment.newInstance();
+                    break;
+                case 1:
+                    fragments[position] = Bfragment.newInstance();
                     break;
                 default:
                     fragments[position] = Afragment.newInstance();

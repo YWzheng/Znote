@@ -19,20 +19,20 @@ public class App extends Application {
 
         if (isNeedCaughtExeption) {
 
-            initACarshHandler();
+            initA();
 
-            initBCarshHandler();
+            initB();
         }
     }
 
     //方案一
-    private void initACarshHandler() {
+    private void initA() {
         CrashHandler crashHandler = CrashHandler.getInstance();
         crashHandler.init(getApplicationContext());
     }
 
     //方案二
-    private void initBCarshHandler() {
+    private void initB() {
         BCrashHandler.init(getApplicationContext());
     }
 }

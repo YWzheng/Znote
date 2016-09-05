@@ -3,14 +3,13 @@ package com.ywzheng.cell.fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
 import com.ywzheng.cell.R;
-import com.ywzheng.cell.adapter.RecyclerViewAdapter;
+import com.ywzheng.cell.adapter.ListViewBaseAdapter;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -20,20 +19,20 @@ import butterknife.ButterKnife;
  * Created by yongwei on 2016/8/31.
  */
 
-public class Afragment extends Fragment {
+public class Bfragment extends Fragment {
 
-    private static Afragment aFragment;
+    private static Bfragment aFragment;
+    @BindView(R.id.listview)
+    ListView mListview;
 
-    @BindView(R.id.recyclerview)
-    RecyclerView mRecyclerView;
 
-    public static Afragment newInstance() {
+    public static Bfragment newInstance() {
         if (aFragment != null) {
             return aFragment;
         }
-        synchronized (Afragment.class) {
+        synchronized (Bfragment.class) {
             if (aFragment == null) {
-                return new Afragment();
+                return new Bfragment();
             }
         }
         return aFragment;
@@ -42,11 +41,9 @@ public class Afragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.main_recycle_view, container, false);
+        View view = inflater.inflate(R.layout.main_list_view, container, false);
         ButterKnife.bind(this, view);
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-        mRecyclerView.setHasFixedSize(true);
-        mRecyclerView.setAdapter(new RecyclerViewAdapter(getActivity()));
+        mListview.setAdapter(new ListViewBaseAdapter(getActivity()));
 
         return view;
     }
