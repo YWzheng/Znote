@@ -11,7 +11,7 @@ android {
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
-
+        vectorDrawables.useSupportLibrary = true  //使用Vector
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }

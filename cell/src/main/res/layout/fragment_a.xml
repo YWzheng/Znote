@@ -10,8 +10,10 @@
     android:orientation="vertical"
     android:paddingBottom="8dp"
     android:paddingTop="8dp"
+    android:scrollbarThumbVertical="@drawable/ic_scrollbar"
     android:scrollbars="vertical"
-    app:layoutManager="LinearLayoutManager"/>
+    app:layoutManager="LinearLayoutManager"
+    tools:listitem="@layout/item_view_16"/>
 
 
     <!--可以方便的查看列表效果-->
