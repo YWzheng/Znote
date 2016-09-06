@@ -1,10 +1,8 @@
-package com.ywzheng.crash.b;
+package com.ywzheng.crash;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.os.Build;
-
-import com.ywzheng.crash.BuildConfig;
 
 import java.io.File;
 import java.io.PrintWriter;
@@ -14,7 +12,7 @@ import java.io.StringWriter;
  * 日志收集
  * 需要在appclication 中初始化CrashHandler.init(mContext)
  */
-public class BCrashHandler implements Thread.UncaughtExceptionHandler {
+public class CrashHandler2 implements Thread.UncaughtExceptionHandler {
     public static String CRASH_DIR;
     public static String CRASH_LOG;
 
@@ -42,10 +40,10 @@ public class BCrashHandler implements Thread.UncaughtExceptionHandler {
     }
 
     public static void register() {
-        new BCrashHandler();
+        new CrashHandler2();
     }
 
-    private BCrashHandler() {
+    private CrashHandler2() {
         //mPrevious = Thread.currentThread().getUncaughtExceptionHandler();
         mPrevious = Thread.getDefaultUncaughtExceptionHandler();
         //Thread.currentThread().setUncaughtExceptionHandler(this);

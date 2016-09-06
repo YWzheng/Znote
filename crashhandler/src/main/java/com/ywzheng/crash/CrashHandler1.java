@@ -2,7 +2,7 @@
  * Copyright (c) 互讯科技 版权所有
  */
 
-package com.ywzheng.crash.a;
+package com.ywzheng.crash;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -34,14 +34,14 @@ import java.util.Map;
  * @author user
  * 
  */
-public class CrashHandler implements UncaughtExceptionHandler {
+public class CrashHandler1 implements UncaughtExceptionHandler {
 
-	public static final String TAG = "BCrashHandler";
+	public static final String TAG = "CrashHandler2";
 
 	// 系统默认的UncaughtException处理类
 	private UncaughtExceptionHandler mDefaultHandler;
 	// CrashHandler实例
-	private static CrashHandler INSTANCE = new CrashHandler();
+	private static CrashHandler1 INSTANCE = new CrashHandler1();
 	// 程序的Context对象
 	private  Context mContext;
 	// 用来存储设备信息和异常信息
@@ -51,11 +51,11 @@ public class CrashHandler implements UncaughtExceptionHandler {
 	private DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss");
 
 	/** 保证只有一个CrashHandler实例 */
-	private CrashHandler() {
+	private CrashHandler1() {
 	}
 
 	/** 获取CrashHandler实例 ,单例模式 */
-	public static CrashHandler getInstance() {
+	public static CrashHandler1 getInstance() {
 		return INSTANCE;
 	}
 

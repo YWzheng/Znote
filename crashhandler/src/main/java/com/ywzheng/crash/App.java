@@ -2,9 +2,6 @@ package com.ywzheng.crash;
 
 import android.app.Application;
 
-import com.ywzheng.crash.a.CrashHandler;
-import com.ywzheng.crash.b.BCrashHandler;
-
 /**
  * Created by yongwei on 2016/8/31.
  */
@@ -27,12 +24,12 @@ public class App extends Application {
 
     //方案一
     private void initA() {
-        CrashHandler crashHandler = CrashHandler.getInstance();
+        CrashHandler1 crashHandler = CrashHandler1.getInstance();
         crashHandler.init(getApplicationContext());
     }
 
     //方案二
     private void initB() {
-        BCrashHandler.init(getApplicationContext());
+        CrashHandler2.init(getApplicationContext());
     }
 }

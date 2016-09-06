@@ -97,4 +97,13 @@
         app:symbolGravity="end|top"
         app:symbolTextSize="30sp"/>
 
+    <ImageView
+        android:id="@+id/iv_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:src="@drawable/play_mode_level_list" />
+
+
 </LinearLayout>
