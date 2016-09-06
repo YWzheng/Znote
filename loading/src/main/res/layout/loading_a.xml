@@ -138,12 +138,12 @@
         app:layout_widthPercent="50%">
 
 
-        <com.ywzheng.loading.widget.IQiYiLoadingView
-            style="@style/mProgress_circle"
+        <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:indeterminateDuration="1500"/>
+            android:indeterminateDrawable="@drawable/progress_bar_drawable"/>
 
     </RelativeLayout>
 
@@ -153,18 +153,10 @@
         android:layout_height="0dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
         android:background="#330201"
         app:layout_heightPercent="25%"
         app:layout_widthPercent="50%">
 
-
-        <com.ywzheng.loading.widget.IQiYiLoadingView
-            style="@style/mProgress_circle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:indeterminateDuration="1500"/>
 
     </RelativeLayout>
 
