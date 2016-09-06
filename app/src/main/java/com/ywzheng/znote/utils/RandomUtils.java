@@ -126,7 +126,7 @@ public class RandomUtils {
     }
 
     /**
-     * Shuffling algorithm, Randomly permutes the specified array using a default source of randomness
+     * Shuffling algorithm, Randomly permutes the specified Array using a default source of randomness
      * 
      * @param objArray  数组
      * @return 从新的数组
@@ -140,7 +140,7 @@ public class RandomUtils {
     }
 
     /**
-     * Shuffling algorithm, Randomly permutes the specified array
+     * Shuffling algorithm, Randomly permutes the specified Array
      * 
      * @param objArray  数组
      * @param shuffleCount  洗的个数
@@ -162,7 +162,7 @@ public class RandomUtils {
     }
 
     /**
-     * Shuffling algorithm, Randomly permutes the specified int array using a default source of randomness
+     * Shuffling algorithm, Randomly permutes the specified int Array using a default source of randomness
      * 
      * @param intArray  数组
      * @return  洗牌之后
@@ -176,7 +176,7 @@ public class RandomUtils {
     }
 
     /**
-     * Shuffling algorithm, Randomly permutes the specified int array
+     * Shuffling algorithm, Randomly permutes the specified int Array
      * 
      * @param intArray   数组
      * @param shuffleCount  范围

@@ -54,7 +54,7 @@ public class ShellUtils {
     /**
      * execute shell commands, default return result msg
      * 
-     * @param commands command array
+     * @param commands command Array
      * @param isRoot whether need to run with root
      * @return  CommandResult
      * @see ShellUtils#execCommand(String[], boolean, boolean)
@@ -92,7 +92,7 @@ public class ShellUtils {
     /**
      * execute shell commands
      * 
-     * @param commands command array
+     * @param commands command Array
      * @param isRoot whether need to run with root
      * @param isNeedResultMsg whether need result msg
      * @return <ul>

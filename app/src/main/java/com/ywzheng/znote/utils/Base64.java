@@ -222,12 +222,12 @@ public class Base64 {
 		return true;
 	}
 
-	/** Encodes a raw byte array into a BASE64 <code>String</code> representation i accordance with RFC 2045.
-	 * @param sArr The bytes to convert. If <code>null</code> or length 0 an empty array will be returned.
+	/** Encodes a raw byte Array into a BASE64 <code>String</code> representation i accordance with RFC 2045.
+	 * @param sArr The bytes to convert. If <code>null</code> or length 0 an empty Array will be returned.
 	 * @param lineSep Optional "\r\n" after 76 characters, unless end of file.<br>
 	 * No line separator will be in breach of RFC 2045 which specifies max 76 per line but will be a
 	 * little faster.
-	 * @return A BASE64 encoded array. Never <code>null</code>.
+	 * @return A BASE64 encoded Array. Never <code>null</code>.
 	 */
 	public final static String encodeToString(byte[] sArr, boolean lineSep)
 	{
@@ -235,12 +235,12 @@ public class Base64 {
 		return new String(encodeToChar(sArr, lineSep));
 	}
 
-	/** Encodes a raw byte array into a BASE64 <code>char[]</code> representation i accordance with RFC 2045.
-	 * @param sArr The bytes to convert. If <code>null</code> or length 0 an empty array will be returned.
+	/** Encodes a raw byte Array into a BASE64 <code>char[]</code> representation i accordance with RFC 2045.
+	 * @param sArr The bytes to convert. If <code>null</code> or length 0 an empty Array will be returned.
 	 * @param lineSep Optional "\r\n" after 76 characters, unless end of file.<br>
 	 * No line separator will be in breach of RFC 2045 which specifies max 76 per line but will be a
 	 * little faster.
-	 * @return A BASE64 encoded array. Never <code>null</code>.
+	 * @return A BASE64 encoded Array. Never <code>null</code>.
 	 */
 	public final static char[] encodeToChar(byte[] sArr, boolean lineSep)
 	{
@@ -251,7 +251,7 @@ public class Base64 {
 
 		int eLen = (sLen / 3) * 3;              // Length of even 24-bits.
 		int cCnt = ((sLen - 1) / 3 + 1) << 2;   // Returned character count
-		int dLen = cCnt + (lineSep ? (cCnt - 1) / 76 << 1 : 0); // Length of returned array
+		int dLen = cCnt + (lineSep ? (cCnt - 1) / 76 << 1 : 0); // Length of returned Array
 		char[] dArr = new char[dLen];
 
 		// Encode even 24-bits

@@ -56,7 +56,7 @@ public class ViewAnimationUtils {
     }
 
     /**
-     * Create a simple circular reveal for a given view id within a root view.
+     * Create a Simple circular reveal for a given view id within a root view.
      * This reveal will start from the start view's boundaries until it fills the root layout_view_14.
      *
      * @param rootView     The layout_view_14's root.
@@ -72,7 +72,7 @@ public class ViewAnimationUtils {
     }
 
     /**
-     * Create a simple circular reveal from a given start view to it's target view.
+     * Create a Simple circular reveal from a given start view to it's target view.
      * This reveal will start from the start view's boundaries until it fills the target view.
      *
      * @param startView    The view to start the reveal from.
@@ -88,7 +88,7 @@ public class ViewAnimationUtils {
     }
 
     /**
-     * Create a simple circular reveal from a given start view to it's target view.
+     * Create a Simple circular reveal from a given start view to it's target view.
      * This reveal will start from the start view's boundaries until it fills the target view.
      *
      * @param center       The center x and y coordinates of the start circle.

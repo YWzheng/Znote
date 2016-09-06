@@ -40,8 +40,8 @@ public class DigestUtils {
     }
 
     /**
-     * Converts an array of bytes into an array of characters representing the hexadecimal values of each byte in order.
-     * The returned array will be double the length of the passed array, as it takes two characters to represent any
+     * Converts an Array of bytes into an Array of characters representing the hexadecimal values of each byte in order.
+     * The returned Array will be double the length of the passed Array, as it takes two characters to represent any
      * given byte.
      * 
      * @param data a byte[] to convert to Hex characters

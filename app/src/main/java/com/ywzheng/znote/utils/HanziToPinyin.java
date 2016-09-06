@@ -68,7 +68,7 @@ public class HanziToPinyin {
     private static final boolean DEBUG = false;
 
     /**
-     * Unihans array. Each unihans is the first one within same pinyin. Use it
+     * Unihans Array. Each unihans is the first one within same pinyin. Use it
      * to determine pinyin
      * for all ~20k unihans.
      */
@@ -143,8 +143,8 @@ public class HanziToPinyin {
             '\u5c0a', '\u6628', };
 
     /**
-     * Pinyin array. Each pinyin is corresponding to unihans of same offset in
-     * the unihans array.
+     * Pinyin Array. Each pinyin is corresponding to unihans of same offset in
+     * the unihans Array.
      */
     public static final byte[][] PINYINS = { { 65, 0, 0, 0, 0, 0 },
             { 65, 73, 0, 0, 0, 0 }, { 65, 78, 0, 0, 0, 0 },
@@ -536,11 +536,11 @@ public class HanziToPinyin {
 
 
     /**
-     * Convert the input to a array of tokens. The sequence of ASCII or Unknown
+     * Convert the input to a Array of tokens. The sequence of ASCII or Unknown
      * characters without
      * space will be put into a Token, One Hanzi character which has pinyin will
      * be treated as a
-     * Token. If these is no China collator, the empty token array is returned.
+     * Token. If these is no China collator, the empty token Array is returned.
      * @param input   字符串
      * @return  返回值
      */
