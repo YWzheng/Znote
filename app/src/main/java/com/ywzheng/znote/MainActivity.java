@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 
 import com.ywzheng.znote.ui.fragment.RevealFragment;
 
@@ -23,17 +22,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         // FIXME: This call is necessary when not calling setContentView.
-        getDelegate().onPostCreate(null);
-        findViewById(android.R.id.content)
-                .setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
+//        getDelegate().onPostCreate(null);
+//        findViewById(android.R.id.content)
+//                .setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
+//
+//        mFragmentManager = getSupportFragmentManager();
+//        if (savedInstanceState == null) {
+//            mFragmentManager.beginTransaction()
+//                    .replace(android.R.id.content, getFragment(), RevealFragment.TAG)
+//                    .commit();
+//        }
 
-        mFragmentManager = getSupportFragmentManager();
-        if (savedInstanceState == null) {
-            mFragmentManager.beginTransaction()
-                    .replace(android.R.id.content, getFragment(), RevealFragment.TAG)
-                    .commit();
-        }
-
+        setContentView(R.layout.title_bar_07);
+        findViewById(R.id.tv_local_music).setSelected(true);
 
     }
 
