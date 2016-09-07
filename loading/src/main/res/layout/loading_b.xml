@@ -121,12 +121,12 @@
         app:layout_widthPercent="50%">
 
 
-        <com.ywzheng.loading.widget.IQiYiLoadingView
-            style="@style/mProgress_circle"
+        <ProgressBar
+            style="@android:style/Widget.Holo.ProgressBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:indeterminateDuration="1500"/>
+            android:layout_gravity="center"/>
 
     </RelativeLayout>
 

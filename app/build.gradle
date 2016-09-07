@@ -41,4 +41,10 @@ dependencies {
 
     //在xml中加载字体 2016-8-25
     compile 'uk.co.chrisjenx:calligraphy:2.2.0'
+
+    //Volley
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+
+    //Gson
+    compile 'com.google.code.gson:gson:2.6.1'
 }
