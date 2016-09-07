@@ -157,6 +157,11 @@
         app:layout_heightPercent="25%"
         app:layout_widthPercent="50%">
 
+        <com.ywzheng.loading.widget.DouBanLoadingView
+            android:id="@+id/douban"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
 
     </RelativeLayout>
 

@@ -8,6 +8,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.ywzheng.loading.R;
+import com.ywzheng.loading.widget.DouBanLoadingView;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 /**
  * Created by yongwei on 2016/8/31.
@@ -16,6 +20,8 @@ import com.ywzheng.loading.R;
 public class Afragment extends Fragment {
 
     private static Afragment aFragment;
+    @BindView(R.id.douban)
+    DouBanLoadingView mDouban;
 
     public static Afragment newInstance() {
         if (aFragment != null) {
@@ -32,6 +38,11 @@ public class Afragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.loading_a, container, false);
+
+        View view = inflater.inflate(R.layout.loading_a, container, false);
+        ButterKnife.bind(this, view);
+        mDouban.showLoading();
+        return view;
     }
+
 }
