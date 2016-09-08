@@ -39,7 +39,10 @@ public class WebViewActivity extends AppCompatActivity {
         mWebView = (WebView) findViewById(R.id.webView);
         initWebView();
         initListener();
-        mWebView.loadUrl("https://github.com/YWzheng/CustomViewBox");
+        //加载网络
+//        mWebView.loadUrl("http://www.jianshu.com/users/fdb2c33b32ea/latest_articles");
+        //加载本地
+        mWebView.loadUrl("file:///android_asset/LeisureIntroduction.html");
     }
 
     private void initListener() {
