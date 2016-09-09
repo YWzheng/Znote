@@ -121,4 +121,13 @@
         <attr name="decimalUnderline" format="boolean"/>
         <attr name="fontPath" format="string"/>
     </declare-styleable>
+
+    <declare-styleable name="SettingItem">
+        <attr name="img_item" format="reference" />
+        <attr name="text_item" format="reference" />
+        <attr name="textsize_item" format="reference" />
+        <attr name="textcolor_item" format="reference" />
+        <attr name="background_item" format="reference" />
+        <attr name="arrow_item" format="reference" />
+    </declare-styleable>
 </resources>

@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 import android.widget.ImageView;
 
 import com.ywzheng.znote.ui.fragment.RevealFragment;
@@ -35,19 +34,20 @@ public class MainActivity extends AppCompatActivity {
 //                    .replace(android.R.id.content, getFragment(), RevealFragment.TAG)
 //                    .commit();
 //        }
-        setContentView(R.layout.activity);
-        mViewById = (ImageView) findViewById(R.id.iv_mode);
-        mViewById.setOnClickListener(new View.OnClickListener() {
-            int i = 0;
+//        setContentView(R.layout.activity);
+//        mViewById = (ImageView) findViewById(R.id.iv_mode);
+//        mViewById.setOnClickListener(new View.OnClickListener() {
+//            int i = 0;
+//
+//            @Override
+//            public void onClick(View v) {
+//
+//                mViewById.setImageLevel(i % 3);
+//                i++;
+//            }
+//        });
 
-            @Override
-            public void onClick(View v) {
-
-                mViewById.setImageLevel(i % 3);
-                i++;
-            }
-        });
-
+        setContentView(R.layout.view_setting_05);
     }
 
     private Fragment getFragment() {

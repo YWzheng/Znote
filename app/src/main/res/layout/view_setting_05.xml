@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#dedcdc"
+              android:orientation="vertical"
+              android:paddingTop="16dp">
+
+    <com.ywzheng.znote.widget.SettingItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:arrow_item="@drawable/right"
+        app:background_item="@android:color/white"
+        app:img_item="@drawable/setting_blue"
+        app:text_item="@string/setting"
+        app:textcolor_item="@android:color/black"
+        app:textsize_item="@dimen/normalsize"/>
+
+    <com.ywzheng.znote.widget.SettingItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        app:arrow_item="@drawable/right"
+        app:background_item="@android:color/white"
+        app:img_item="@drawable/biaoqing"
+        app:text_item="@string/emoj"
+        app:textcolor_item="@android:color/black"
+        app:textsize_item="@dimen/normalsize"/>
+</LinearLayout>

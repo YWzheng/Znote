@@ -73,4 +73,8 @@
 
         \n\nEmail：kaku201313@163.com
     </string>
+
+
+    <string name="setting">设置</string>
+    <string name="emoj">表情</string>
 </resources>
