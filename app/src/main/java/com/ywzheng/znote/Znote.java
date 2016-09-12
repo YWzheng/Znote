@@ -53,7 +53,10 @@ public class Znote extends AppCompatActivity {
                 .setNegativeButton("Dismiss", null)
                 .show();
 
-
+        //页面跳转动画，
+//        Intent intent=new Intent();
+//        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(this, this., "View");
+//        this.startActivity(intent, options.toBundle());
     }
 
     public String loadJSONFromAsset() {
