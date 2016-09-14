@@ -3,20 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Znote.iml" filepath="$PROJECT_DIR$/Znote.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Znote.iml" filepath="$PROJECT_DIR$/Znote.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/cell/cell.iml" filepath="$PROJECT_DIR$/cell/cell.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cell/cell.iml" filepath="$PROJECT_DIR$/cell/cell.iml" />
-      <module fileurl="file://$PROJECT_DIR$/crashhandler/crashhandler.iml" filepath="$PROJECT_DIR$/crashhandler/crashhandler.iml" />
       <module fileurl="file://$PROJECT_DIR$/crashhandler/crashhandler.iml" filepath="$PROJECT_DIR$/crashhandler/crashhandler.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/loading/loading.iml" filepath="$PROJECT_DIR$/loading/loading.iml" />
       <module fileurl="file://$PROJECT_DIR$/loading/loading.iml" filepath="$PROJECT_DIR$/loading/loading.iml" />
       <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
-      <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
-      <module fileurl="file://$PROJECT_DIR$/welcome/welcome.iml" filepath="$PROJECT_DIR$/welcome/welcome.iml" />
       <module fileurl="file://$PROJECT_DIR$/welcome/welcome.iml" filepath="$PROJECT_DIR$/welcome/welcome.iml" />
     </modules>
   </component>

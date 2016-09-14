@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'android-apt'//butterknife
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.1"
+    buildToolsVersion "24.0.2"
 
     defaultConfig {
         applicationId "com.ywzheng.splash"
@@ -28,9 +28,9 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     //Google
-    compile 'com.android.support:appcompat-v7:24.2.0'
-    compile 'com.android.support:design:24.2.0'
-    compile 'com.android.support:percent:24.2.0'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.android.support:percent:24.2.1'
     testCompile 'junit:junit:4.12'
     //jakewharton
     compile 'com.jakewharton:butterknife:8.3.0'
