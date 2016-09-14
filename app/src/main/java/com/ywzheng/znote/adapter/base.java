@@ -8,7 +8,7 @@ import android.widget.BaseAdapter;
  * Created by yongwei on 2016/9/6.
  */
 
-public class Base extends BaseAdapter {
+public class base extends BaseAdapter {
 
 
     private static final int TYPE_ONE = 0;

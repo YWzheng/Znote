@@ -46,4 +46,13 @@
     <declare-styleable name="ButterFlyLoadView">
         <attr name="figure" format="reference"></attr>
     </declare-styleable>
+
+    <declare-styleable name="FlikerProgressBar">
+        <attr name="ftextsize" format="dimension|reference"/>
+
+        <attr name="loadingColor" format="color|reference"/>
+
+        <attr name="stopColor" format="color|reference"/>
+
+    </declare-styleable>
 </resources>

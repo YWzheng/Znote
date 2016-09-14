@@ -10,7 +10,7 @@ import java.util.Map;
  * Created by yongwei on 2016/9/6.
  */
 
-public class Simple extends SimpleAdapter{
+public class simple extends SimpleAdapter{
     /**
      * Constructor
      *
@@ -25,7 +25,7 @@ public class Simple extends SimpleAdapter{
      * @param to       The views that should display column in the "from" parameter. These should all be
      *                 TextViews. The first N views in this list are given the values of the first N columns
      */
-    public Simple(Context context, List<? extends Map<String, ?>> data, int resource, String[] from, int[] to) {
+    public simple(Context context, List<? extends Map<String, ?>> data, int resource, String[] from, int[] to) {
         super(context, data, resource, from, to);
     }
 }
