@@ -11,4 +11,15 @@
     用法：
     final TransitionInflater inflater = TransitionInflater.from(context);
             final Transition sharedEnter = inflater.inflateTransition(R.transition.detail_enter);
-            fragment.setSharedElementEnterTransition(sharedEnter);-->
+            fragment.setSharedElementEnterTransition(sharedEnter);
+
+     或者在某个控件里
+     <item name="android:windowEnterTransition">@transition/dribbble_shot_enter</item>
+
+
+
+
+
+
+
+            -->

@@ -10,8 +10,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.widget.TextView;
 
+import com.ywzheng.znote.pojo.KrTV;
+import com.ywzheng.znote.pojo.KrTVData;
+import com.ywzheng.znote.utils.my.AssetsUtil;
+import com.ywzheng.znote.utils.my.GsonUtil;
+
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 
 /**
  * 杂记
@@ -57,6 +63,11 @@ public class Znote extends AppCompatActivity {
 //        Intent intent=new Intent();
 //        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(this, this., "View");
 //        this.startActivity(intent, options.toBundle());
+
+        //获取本地json数据并转换对象
+        String s = AssetsUtil.readAssets(this, "example.json");
+        KrTV krTV = GsonUtil.parseJson(s, KrTV.class);
+        List<KrTVData> list = krTV.data;
     }
 
     public String loadJSONFromAsset() {
