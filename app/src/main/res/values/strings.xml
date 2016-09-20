@@ -86,4 +86,17 @@
     <string name="setting_update">检查更新</string>
     <string name="setting_normal">常规</string>
     <string name="setting_other">其他</string>
+
+    <string name="txt_how_add_show_way">如何添加桌面小控件</string>
+    <string name="txt_why_add_widget">为了更好的使用UPMiss，在桌面添加她的小部件吧！\n这样随时很醒目的就能看到她哦。</string>
+    <string name="txt_add_widget_first">首先要找到小部件在哪儿，如图：长按桌面，然后点击 添加插件 ,就可以找到她了。</string>
+    <string name="txt_add_widget_second">找到了么？接下来长按UPMiss小部件拉到桌面就OK啦~</string>
+    <string name="txt_other_add_widget">添加小部件的方式均大同小异，\n如果没有找到的话，可以求助度娘哈！</string>
+
+
+    <string name="txt_about_version">Version: 3.0.0</string>
+    <string name="txt_about_email">Email: qiujuer@live.cn</string>
+    <string name="txt_about_group">QQGroup: 387403637</string>
+    <string name="txt_about_alipay">AliPay: qiujuer</string>
+    <string name="txt_about_wechat">WeChat: qiujuerman</string>
 </resources>
