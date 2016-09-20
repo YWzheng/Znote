@@ -11,7 +11,7 @@
 
         <activity
             android:name="com.ywzheng.welcome.MainActivity"
-            android:theme="@style/SplashTheme">
+            android:theme="@style/Launch">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
