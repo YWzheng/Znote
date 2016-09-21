@@ -1,4 +1,4 @@
-package com.ywzheng.znote.toast;
+package com.ywzheng.znote.widget.toast;
 
 import android.content.Context;
 import android.view.LayoutInflater;

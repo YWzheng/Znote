@@ -1,4 +1,4 @@
-package com.ywzheng.znote.model;
+package com.ywzheng.znote.http.model;
 
 import io.realm.RealmObject;
 

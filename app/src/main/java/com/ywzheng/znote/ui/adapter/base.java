@@ -1,4 +1,4 @@
-package com.ywzheng.znote.adapter;
+package com.ywzheng.znote.ui.adapter;
 
 import android.view.View;
 import android.view.ViewGroup;

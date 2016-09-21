@@ -1,5 +1,5 @@
 
-package com.ywzheng.znote.adapter;
+package com.ywzheng.znote.ui.adapter;
 
 import android.content.Context;
 import android.content.res.TypedArray;

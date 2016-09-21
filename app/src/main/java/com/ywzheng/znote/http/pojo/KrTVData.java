@@ -1,4 +1,4 @@
-package com.ywzheng.znote.pojo;
+package com.ywzheng.znote.http.pojo;
 
 /**
  */

@@ -10,8 +10,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.widget.TextView;
 
-import com.ywzheng.znote.pojo.KrTV;
-import com.ywzheng.znote.pojo.KrTVData;
+import com.ywzheng.znote.http.pojo.KrTV;
+import com.ywzheng.znote.http.pojo.KrTVData;
 import com.ywzheng.znote.utils.my.AssetsUtil;
 import com.ywzheng.znote.utils.my.GsonUtil;
 

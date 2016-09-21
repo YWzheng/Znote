@@ -1,4 +1,4 @@
-package com.ywzheng.znote.base;
+package com.ywzheng.znote.ui.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

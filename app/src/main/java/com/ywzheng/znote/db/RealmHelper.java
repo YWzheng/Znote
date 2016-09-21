@@ -2,7 +2,7 @@ package com.ywzheng.znote.db;
 
 import android.content.Context;
 
-import com.ywzheng.znote.model.ReadStateBean;
+import com.ywzheng.znote.http.model.ReadStateBean;
 
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
