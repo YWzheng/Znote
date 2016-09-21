@@ -398,6 +398,7 @@
             android:layout_width="0.5dp"
             android:layout_height="match_parent"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:background="#dcdcdc" />
 
         <RelativeLayout
@@ -472,6 +473,7 @@
         <View
             android:layout_width="0.5dp"
             android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:background="#dcdcdc" />
 

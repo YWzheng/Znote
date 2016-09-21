@@ -35,7 +35,7 @@ public class CustomToast {
 
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
-            View layout = inflater.inflate(R.layout.custom_toast, null);
+            View layout = inflater.inflate(R.layout.widget_toast_01, null);
 
             TextView text = (TextView) layout.findViewById(R.id.text);
             text.setText(message);

@@ -12,8 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="数据页"
-        android:visibility="gone"
-        />
+        android:visibility="gone"/>
 
     <ProgressBar
         android:id="@+id/progress"

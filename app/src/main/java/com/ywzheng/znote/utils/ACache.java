@@ -34,8 +34,12 @@ import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * 本地缓存层
+ * <p>
+ * example：
+ * cache.put(Integer.toString(id), newsDetail, ACache.TIME_DAY * 14);
  */
 public class ACache {
+
     public static final int TIME_HOUR = 60 * 60;
     public static final int TIME_DAY = TIME_HOUR * 24;
     private static final int MAX_SIZE = 1000 * 1000 * 50; // 50 mb

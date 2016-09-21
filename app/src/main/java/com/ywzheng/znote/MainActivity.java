@@ -16,6 +16,7 @@ import com.ywzheng.znote.ui.fragment.RevealFragment;
  */
 public class MainActivity extends AppCompatActivity {
 
+    private static final String TAG = "MainActivity";
     private FragmentManager mFragmentManager;
     private ImageView mViewById;
 
@@ -47,7 +48,8 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
-        setContentView(R.layout.view_setting_07);
+        setContentView(R.layout.view_setting_06);
+
     }
 
     private Fragment getFragment() {
