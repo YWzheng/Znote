@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
-        setContentView(R.layout.activity_about_01);
+        setContentView(R.layout.view_setting_07);
     }
 
     private Fragment getFragment() {

@@ -99,4 +99,13 @@
     <string name="txt_about_group">QQGroup: 387403637</string>
     <string name="txt_about_alipay">AliPay: qiujuer</string>
     <string name="txt_about_wechat">WeChat: qiujuerman</string>
+
+
+    <string name="AboutFragment_label_nickname">小新丶很红</string>
+    <string name="AboutFragment_desc_introduction">深圳大学，Android 开发</string>
+    <string name="AboutFragment_label_grade">评分</string>
+    <string name="AboutFragment_label_contact_me">联系我</string>
+    <string name="AboutFragment_label_help">帮助</string>
+    <string name="AboutFragment_label_setting">设置</string>
+    <string name="AboutFragment_label_check_update">检查更新</string>
 </resources>
