@@ -15,7 +15,7 @@ import com.ywzheng.welcome.fragment.Hfragment;
 import com.ywzheng.welcome.fragment.Ifragment;
 import com.ywzheng.welcome.fragment.Jfragment;
 import com.ywzheng.welcome.fragment.Kfragment;
-import com.ywzheng.welcome.fragment.Mfragment;
+import com.ywzheng.welcome.fragment.Nfragment;
 
 /**
  * Created by yongwei on 16/8/26.
@@ -36,7 +36,7 @@ public class FragmentAdapter extends FragmentPagerAdapter {
         if (fragments[position] == null) {
             switch (position) {
                 case 0:
-                    fragments[position] = Mfragment.newInstance();
+                    fragments[position] = Nfragment.newInstance();
                     break;
                 case 1:
                     fragments[position] = Bfragment.newInstance();

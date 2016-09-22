@@ -2,6 +2,7 @@ package com.ywzheng.znote;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -41,6 +42,7 @@ public class Znote extends AppCompatActivity {
         //代码设置颜色
         TextView mTextView = new TextView(this);
         mTextView.setBackgroundColor(0xff0000bb);
+        mTextView.setBackgroundColor(Color.parseColor("#ff0000bb"));
 
         //AlertDialog 重点在于&#8226;这个符号的使用，列表项
         new AlertDialog.Builder(this)
@@ -68,6 +70,15 @@ public class Znote extends AppCompatActivity {
         String s = AssetsUtil.readAssets(this, "example.json");
         KrTV krTV = GsonUtil.parseJson(s, KrTV.class);
         List<KrTVData> list = krTV.data;
+
+        //1.解决安装后直接打开，home键切换到后台再启动重复出现闪屏页面的问题
+        // http://stackoverflow.com/questions/2280361/app-always-starts-fresh-from-root-activity-instead-of-resuming-background-state
+        if (!isTaskRoot()) {
+            if ((getIntent().getFlags() & Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT) != 0) {
+                finish();
+                return;
+            }
+        }
     }
 
     public String loadJSONFromAsset() {

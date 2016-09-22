@@ -41,7 +41,13 @@ public class Ffragment extends Fragment {
         View view = inflater.inflate(R.layout.splash_view_f, container, false);
         ButterKnife.bind(this, view);
 
-        mSplashImage.animate().scaleX(1.12f).scaleY(1.12f).setDuration(2000).setStartDelay(100).start();
+        mSplashImage
+                .animate()
+                .scaleX(1.12f)
+                .scaleY(1.12f)
+                .setDuration(2000)
+                .setStartDelay(100)
+                .start();
         return view;
     }
 }
