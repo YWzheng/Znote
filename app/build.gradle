@@ -50,4 +50,7 @@ dependencies {
 
     //other
     compile 'uk.co.chrisjenx:calligraphy:2.2.0'//在xml中加载字体 2016-8-25
+
+    //rxandroid
+    compile 'io.reactivex:rxandroid:1.2.1'
 }

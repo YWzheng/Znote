@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/about_body"
+        tools:targetApi="m"/>
+</LinearLayout>
+
+    <!--Android Tools Attributes，让布局设计所见即所得 -->
+    <!--http://yifeng.studio/2016/10/13/android-tools-attributes/-->

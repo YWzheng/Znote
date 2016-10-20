@@ -19,6 +19,11 @@ import com.ywzheng.znote.utils.my.GsonUtil;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import rx.Observable;
+import rx.android.schedulers.AndroidSchedulers;
+import rx.functions.Action1;
 
 /**
  * 杂记
@@ -79,6 +84,18 @@ public class Znote extends AppCompatActivity {
                 return;
             }
         }
+
+//        2016-10-20 11:23:28 rxadnroid 的使用
+
+        Observable.timer(1000, TimeUnit.SECONDS)
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new Action1<Long>() {
+                    @Override
+                    public void call(Long aLong) {
+                        //延时要做的事
+                    }
+                });
+
     }
 
     public String loadJSONFromAsset() {
@@ -96,4 +113,6 @@ public class Znote extends AppCompatActivity {
         }
         return json;
     }
+
+
 }
